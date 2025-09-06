@@ -1,0 +1,53 @@
+{
+  "brand_name": "Amutham",
+  "nav_home": "Inicio",
+  "nav_spices": "Especias",
+  "nav_oils": "Aceites esenciales",
+  "nav_herbs": "Hierbas secas",
+  "get_quote": "Solicitar cotización",
+  "buy_now": "Comprar ahora",
+
+  "home_title": "Bienvenido a Amutham Food Products",
+  "home_intro": "Entregamos especias, hierbas secas y aceites esenciales de alta calidad desde la India al mundo.",
+
+  "spices_title": "Especias",
+  "spices_intro": "Ofrecemos varias variedades de especias, incluyendo cúrcuma, cúrcuma negra, jengibre negro, chile, nuez moscada, cilantro, cardamomo, clavo, canela, comino, ajowan, fenogreco, jengibre y pimienta negra.",
+
+  "turmeric_title": "Cúrcuma",
+  "turmeric_desc": "La cúrcuma, una especia amarilla dorada de Curcuma longa, es apreciada por su sabor terroso, coloración natural y uso culinario tradicional.",
+
+  "black_turmeric_title": "Cúrcuma negra",
+  "black_turmeric_desc": "La cúrcuma negra (Curcuma caesia Roxb., o zedoaria negra) es una hierba industrialmente importante y en peligro crítico.",
+
+  "black_ginger_title": "Jengibre negro",
+  "black_ginger_desc": "El jengibre negro (Kaempferia parviflora) es una raíz rara originaria de Tailandia, utilizada para vitalidad, resistencia y bienestar general.",
+
+  "chilli_title": "Chile",
+  "chilli_desc": "El chile, derivado de especies de Capsicum, es valorado por su picante, color vibrante y papel esencial en las tradiciones culinarias mundiales."
+
+  "oils_title": "Aceites esenciales",
+  "oils_intro": "Ofrecemos aceites esenciales puros y naturales ampliamente utilizados en aromaterapia, cosméticos, bienestar y formulaciones naturales.",
+
+  "lavender_oil_title": "Aceite de lavanda",
+  "lavender_oil_desc": "El aceite de lavanda es conocido por su aroma calmante y se utiliza en relajación, cuidado de la piel y bienestar.",
+
+  "peppermint_oil_title": "Aceite de menta",
+  "peppermint_oil_desc": "El aceite de menta proporciona un efecto refrescante y es valorado en aromaterapia, cuidado bucal y uso culinario.",
+
+  "eucalyptus_oil_title": "Aceite de eucalipto",
+  "eucalyptus_oil_desc": "El aceite de eucalipto se aprecia por su aroma vigorizante y su uso tradicional en la salud respiratoria y la limpieza.",
+
+
+  "herbs_title": "Hierbas secas",
+  "herbs_intro": "Suministramos hierbas secas cuidadosamente preservadas que mantienen su aroma, sabor y nutrientes para usos culinarios y de bienestar.",
+
+  "basil_title": "Albahaca",
+  "basil_desc": "La albahaca seca añade notas dulces y aromáticas, muy usada en salsas, sopas e infusiones.",
+
+  "oregano_title": "Orégano",
+  "oregano_desc": "El orégano es una hierba seca sabrosa, utilizada en la cocina mediterránea y mundial por su fuerte aroma y sabor.",
+
+  "mint_title": "Menta",
+  "mint_desc": "La menta seca es refrescante y aromática, muy utilizada en tés, bebidas y preparaciones herbales tradicionales."
+}
+

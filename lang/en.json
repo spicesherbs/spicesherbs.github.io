@@ -1,0 +1,54 @@
+{
+  "brand_name": "Amutham",
+  "nav_home": "Home",
+  "nav_spices": "Spices",
+  "nav_oils": "Essential Oils",
+  "nav_herbs": "Dried Herbs",
+  "get_quote": "Get A Quote",
+  "buy_now": "Buy Now",
+
+  "home_title": "Welcome to Amutham Food Products",
+  "home_intro": "We deliver high-quality spices, dried herbs, and essential oils from India to the world.",
+
+  "spices_title": "Spices",
+  "spices_intro": "We supply several varieties of spices, including but not limited to Turmeric, Black Turmeric, Black Ginger, Chilli, Nutmeg, Coriander, Cardamom, Clove, Cinnamon, Jeera, Ajowan, Fenugreek, Ginger, and Black pepper.",
+
+  "turmeric_title": "Turmeric",
+  "turmeric_desc": "Turmeric, a golden-yellow spice from Curcuma longa, is prized for its earthy flavor, natural coloring, and traditional culinary use.",
+
+  "black_turmeric_title": "Black Turmeric",
+  "black_turmeric_desc": "Black turmeric (Curcuma caesia Roxb., or Black zedoary) is an industrially important critically endangered herb.",
+
+  "black_ginger_title": "Black Ginger",
+  "black_ginger_desc": "Black ginger (Kaempferia parviflora) is a rare root native to Thailand, used for vitality, stamina, and overall wellness.",
+
+  "chilli_title": "Chilli",
+  "chilli_desc": "Chilli, derived from Capsicum species, is valued for its fiery heat, vibrant color, and essential role in global culinary traditions."
+  
+ 
+  "oils_title": "Essential Oils",
+  "oils_intro": "We supply pure and natural essential oils that are widely used in aromatherapy, cosmetics, wellness, and natural formulations.",
+
+  "lavender_oil_title": "Lavender Oil",
+  "lavender_oil_desc": "Lavender oil is known for its calming aroma and is commonly used in relaxation, skincare, and wellness applications.",
+
+  "peppermint_oil_title": "Peppermint Oil",
+  "peppermint_oil_desc": "Peppermint oil provides a refreshing cooling effect and is valued in aromatherapy, oral care, and culinary use.",
+
+  "eucalyptus_oil_title": "Eucalyptus Oil",
+  "eucalyptus_oil_desc": "Eucalyptus oil is valued for its invigorating scent and traditional use in respiratory wellness and cleansing.",
+
+
+  "herbs_title": "Dried Herbs",
+  "herbs_intro": "We supply carefully dried herbs that retain natural aroma, flavor, and nutrients for culinary and wellness uses.",
+
+  "basil_title": "Basil",
+  "basil_desc": "Dried basil adds sweet, aromatic notes to cooking and is widely used in sauces, soups, and herbal teas.",
+
+  "oregano_title": "Oregano",
+  "oregano_desc": "Oregano is a flavorful dried herb, often used in Mediterranean and global cuisines for its strong aroma and taste.",
+
+  "mint_title": "Mint",
+  "mint_desc": "Dried mint is refreshing, aromatic, and widely used in teas, beverages, and traditional herbal preparations."
+
+}

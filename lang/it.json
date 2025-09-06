@@ -1,0 +1,53 @@
+{
+  "brand_name": "Amutham",
+  "nav_home": "Home",
+  "nav_spices": "Spezie",
+  "nav_oils": "Oli essenziali",
+  "nav_herbs": "Erbe essiccate",
+  "get_quote": "Richiedi un preventivo",
+  "buy_now": "Acquista ora",
+
+  "home_title": "Benvenuti a Amutham Food Products",
+  "home_intro": "Forniamo spezie, erbe essiccate e oli essenziali di alta qualità dall'India al mondo.",
+
+  "spices_title": "Spezie",
+  "spices_intro": "Forniamo diverse varietà di spezie, tra cui curcuma, curcuma nera, zenzero nero, peperoncino, noce moscata, coriandolo, cardamomo, chiodi di garofano, cannella, cumino, ajowan, fieno greco, zenzero e pepe nero.",
+
+  "turmeric_title": "Curcuma",
+  "turmeric_desc": "La curcuma, una spezia giallo dorata di Curcuma longa, è apprezzata per il suo sapore terroso, la colorazione naturale e l'uso culinario tradizionale.",
+
+  "black_turmeric_title": "Curcuma nera",
+  "black_turmeric_desc": "La curcuma nera (Curcuma caesia Roxb., o zedoaria nera) è un'erba industrialmente importante e in pericolo critico.",
+
+  "black_ginger_title": "Zenzero nero",
+  "black_ginger_desc": "Lo zenzero nero (Kaempferia parviflora) è una radice rara originaria della Thailandia, utilizzata per vitalità, resistenza e benessere generale.",
+
+  "chilli_title": "Peperoncino",
+  "chilli_desc": "Il peperoncino, derivato dalle specie di Capsicum, è apprezzato per il suo calore piccante, il colore vivace e il ruolo essenziale nelle tradizioni culinarie mondiali."
+
+  "oils_title": "Oli essenziali",
+  "oils_intro": "Forniamo oli essenziali puri e naturali, ampiamente utilizzati in aromaterapia, cosmetici, benessere e formulazioni naturali.",
+
+  "lavender_oil_title": "Olio di lavanda",
+  "lavender_oil_desc": "L'olio di lavanda è noto per il suo aroma rilassante ed è comunemente usato per il relax, la cura della pelle e il benessere.",
+
+  "peppermint_oil_title": "Olio di menta piperita",
+  "peppermint_oil_desc": "L'olio di menta piperita offre un effetto rinfrescante ed è apprezzato in aromaterapia, igiene orale e cucina.",
+
+  "eucalyptus_oil_title": "Olio di eucalipto",
+  "eucalyptus_oil_desc": "L'olio di eucalipto è apprezzato per il suo profumo tonificante e per l'uso tradizionale nel benessere respiratorio e nella pulizia.",
+
+
+  "herbs_title": "Erbe essiccate",
+  "herbs_intro": "Forniamo erbe essiccate accuratamente che mantengono aroma, sapore e nutrienti naturali per usi culinari e di benessere.",
+
+  "basil_title": "Basilico",
+  "basil_desc": "Il basilico essiccato aggiunge note dolci e aromatiche, ampiamente usato in salse, zuppe e tisane.",
+
+  "oregano_title": "Origano",
+  "oregano_desc": "L'origano è un'erba secca aromatica, spesso usata nelle cucine mediterranee e globali per il suo aroma intenso.",
+
+  "mint_title": "Menta",
+  "mint_desc": "La menta essiccata è rinfrescante e aromatica, utilizzata in tisane, bevande e preparazioni erboristiche tradizionali."
+}
+
