@@ -140,36 +140,8 @@
 
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/bootstrap.js"></script>
+<script src="js/language.js"></script>
 
-<script>
-  function loadLanguage(lang) {
-    fetch('lang/' + lang + '.json')
-      .then(response => response.json())
-      .then(data => {
-        document.querySelectorAll('[data-i18n]').forEach(el => {
-          const key = el.getAttribute('data-i18n');
-          if (data[key]) {
-            if (el.tagName === "INPUT" || el.tagName === "TEXTAREA") {
-              el.setAttribute("placeholder", data[key]);
-            } else {
-              el.innerHTML = data[key];
-            }
-          }
-        });
-        // set HTML language attribute
-        document.documentElement.setAttribute("lang", lang);
-        // sync dropdown value
-        document.getElementById('lang-switcher').value = lang;
-      });
-  }
-
-  document.getElementById('lang-switcher').addEventListener('change', function () {
-    loadLanguage(this.value);
-  });
-
-  // load default
-  loadLanguage('en');
-</script>
 
 </body>
 </html>
