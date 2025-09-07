@@ -5,10 +5,11 @@
   "nav_oils": "Essential Oils",
   "nav_herbs": "Dried Herbs",
   "get_quote": "Get A Quote",
-  "buy_now": "Buy Now",
+  "buy_now": "Order Now",
+  "enquire_now": "Enquire Now",
 
   "home_title": "Welcome!",
-  "home_intro": "We export high-quality spices, essential oils, and dried herbs with fast, reliable shipping worldwide.",
+  "home_intro": "We export premium spices, essential oils, and dried herbs with fast, reliable worldwide shipping. Contact us to learn more about our full product range.",
   "our_products": "Our Products",
   "our_products_desc": "Here are some of the products that we deal with.",
 
@@ -60,6 +61,7 @@
   "mint_desc": "Dried mint is refreshing, aromatic, and widely used in teas, beverages, and traditional herbal preparations."
 
 }
+
 
 
 
