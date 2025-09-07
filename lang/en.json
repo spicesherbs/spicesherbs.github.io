@@ -9,6 +9,8 @@
 
   "home_title": "Welcome!",
   "home_intro": "We export high-quality spices, essential oils, and dried herbs with fast, reliable shipping worldwide.",
+  "our_products": "Our Products",
+  "our_products_desc": "Here are some of the products that we deal with.",
 
   "spices_title": "Spices",
   "spices_intro": "We supply several varieties of spices, including but not limited to Turmeric, Black Turmeric, Black Ginger, Chilli, Nutmeg, Coriander, Cardamom, Clove, Cinnamon, Jeera, Ajowan, Fenugreek, Ginger, and Black pepper.",
@@ -51,5 +53,6 @@
   "mint_desc": "Dried mint is refreshing, aromatic, and widely used in teas, beverages, and traditional herbal preparations."
 
 }
+
 
 
