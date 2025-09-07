@@ -1,0 +1,56 @@
+{
+  "brand_name": "Amutham",
+  "nav_home": "Strona główna",
+  "nav_spices": "Przyprawy",
+  "nav_oils": "Oleje eteryczne",
+  "nav_herbs": "Suszone zioła",
+  "get_quote": "Uzyskaj ofertę",
+  "buy_now": "Kup teraz",
+
+  "home_title": "Witamy!",
+  "home_intro": "Eksportujemy wysokiej jakości przyprawy, olejki eteryczne i suszone zioła z szybką i niezawodną wysyłką na cały świat.",
+  "our_products": "Nasze produkty",
+  "our_products_desc": "Oto niektóre z produktów, którymi się zajmujemy.",
+
+  "spices_title": "Przyprawy",
+  "spices_intro": "Dostarczamy różne rodzaje przypraw, w tym kurkumę, czarną kurkumę, czarny imbir, chili, gałkę muszkatołową, kolendrę, kardamon, goździki, cynamon, kminek, ajowan, kozieradkę, imbir i pieprz czarny.",
+  "spices_desc": "Przyprawy to składniki roślinne nadające smak, aromat i kolor potrawom. Używane na całym świecie w gotowaniu, herbatkach i wellness.",
+
+  "oils_title": "Oleje eteryczne",
+  "oils_intro": "Dostarczamy czyste i naturalne oleje eteryczne, szeroko stosowane w aromaterapii, kosmetykach, wellness i naturalnych recepturach.",
+  "oils_desc": "Oleje eteryczne to skoncentrowane ekstrakty roślinne znane ze swoich właściwości aromatycznych, szeroko stosowane w aromaterapii, kosmetykach i wellness.",
+
+  "herbs_title": "Suszone zioła",
+  "herbs_intro": "Dostarczamy starannie suszone zioła, które zachowują naturalny aromat, smak i składniki odżywcze do celów kulinarnych i zdrowotnych.",
+  "herbs_desc": "Suszone zioła zachowują naturalny smak i aromat, co czyni je niezbędnymi do przyprawiania potraw, herbat i tradycyjnych praktyk na całym świecie.",
+
+  "turmeric_title": "Kurkuma",
+  "turmeric_desc": "Kurkuma, złocistożółta przyprawa z Curcuma longa, ceniona jest za ziemisty smak, naturalny barwnik i tradycyjne zastosowanie kulinarne.",
+
+  "black_turmeric_title": "Czarna kurkuma",
+  "black_turmeric_desc": "Czarna kurkuma (Curcuma caesia Roxb., czyli czarny zedoar) to przemysłowo ważne, krytycznie zagrożone zioło.",
+
+  "black_ginger_title": "Czarny imbir",
+  "black_ginger_desc": "Czarny imbir (Kaempferia parviflora) to rzadki korzeń pochodzący z Tajlandii, stosowany dla witalności, wytrzymałości i ogólnego zdrowia.",
+
+  "chilli_title": "Chili",
+  "chilli_desc": "Chili, pochodzące z gatunków Capsicum, cenione jest za swoją ostrość, intensywny kolor i kluczową rolę w kuchniach świata.",
+
+  "lavender_oil_title": "Olej lawendowy",
+  "lavender_oil_desc": "Olej lawendowy znany jest z kojącego aromatu i jest powszechnie stosowany w relaksacji, pielęgnacji skóry i wellness.",
+
+  "peppermint_oil_title": "Olej miętowy",
+  "peppermint_oil_desc": "Olej miętowy daje orzeźwiający efekt chłodzenia i ceniony jest w aromaterapii, higienie jamy ustnej i zastosowaniach kulinarnych.",
+
+  "eucalyptus_oil_title": "Olej eukaliptusowy",
+  "eucalyptus_oil_desc": "Olej eukaliptusowy ceniony jest za pobudzający zapach i tradycyjne zastosowanie we wspieraniu oddychania i oczyszczaniu.",
+
+  "basil_title": "Bazylia",
+  "basil_desc": "Suszona bazylia dodaje słodkich, aromatycznych nut do potraw i jest szeroko stosowana w sosach, zupach i herbatach ziołowych.",
+
+  "oregano_title": "Oregano",
+  "oregano_desc": "Oregano to aromatyczne suszone zioło, często stosowane w kuchni śródziemnomorskiej i światowej ze względu na intensywny smak i aromat.",
+
+  "mint_title": "Mięta",
+  "mint_desc": "Suszona mięta jest orzeźwiająca, aromatyczna i szeroko stosowana w herbatach, napojach i tradycyjnych preparatach ziołowych."
+}
