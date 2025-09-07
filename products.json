@@ -2,7 +2,7 @@
   "spices": [
     { "id": "turmeric", "image": "images/turmeric.png" },
     { "id": "black_turmeric", "image": "images/black_turmeric.png" },
-    { "id": "black_ginger", "image": "images/black_turmeric.png" },
+    { "id": "black_ginger", "image": "images/black_ginger.png" },
     { "id": "chilli", "image": "images/chilli.png" }
   ],
   "oils": [
