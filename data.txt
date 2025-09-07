@@ -1,0 +1,32 @@
+S NO	ENGLISH NAME	BOTANICAL NAME	PARTS  USED
+1	TURMERIC	Turmeric longa	Rhizome
+2	VASAMBU	Acorus calamus	Rhizome
+3	LONG PEPPER	Piper longam	Fruit/Root
+4	MYRO BALAN	Terminiliea chebula	Fruit
+5	ASWAGANTHA	Withania somnifera	Root
+6	AVARANBOO	Senna auriculata	Leaf/Flower(Dried)
+7	KUPPAIMEENAI	Acalypha indica	Leaf/Root
+8	KEELANELI	Phylanthus amarus	Leaf/Root
+9	NEERUNCHI	Tribulus terrestris	Fruit
+10	NEEM	Azadirachta indica	Leaf/Seed/Cake/Oil
+11	EUCALYPTUS	Eycalyptus	Leaf/oil
+12	NITHIYAKALYANI	Catharanthus	Leaf/Flower(Dried)
+13	ADAADHODA	Justica adathoda	Leaf
+14	KUMUDIKAI	Citrullus colocynthis	Fruit
+15	GINGER	Gingiber officinale	Rhizome
+16	NANARI	Hemidesmus indicus	Root
+17	SUNDAIKAI	Solanum torvum	Dried Fruit
+18	KANDANKATHITRI	Solanum  virginianum	Root/seed
+19	OOMATHAI	Datura stramonium	Seed
+29	SOAPNUT	Sapindus	Fruit
+30	AVURI	Indigofera tinctoria	Leaf
+31	NAIYURUVI	Achyranthes aspera	Leaf/Root
+32	NOCHI	Vitex nugunda	Leaf
+33	THUTHI	Abutilon indicum	Leaf
+34	THULASI	Ocimum santum	Leaf
+35	ALARI	Abutilon indicum	Leaf/Seed
+36	ALARI YELLOW	Abutilon indicum	Leaf/Seed
+37	ERUKU	Calotropis	Leaf/Flower(Dried)
+38	CASTOR	Ricinus commnuis	Root/seed
+39	BANYAN TREE	Ficus benghalensid	Leaf/Fruit(Dried)
+40	SACREDFIG	Ficus   religiosa	Leaf/Fruit(Dried)
