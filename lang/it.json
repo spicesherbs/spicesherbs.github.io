@@ -1,56 +1,57 @@
 {
   "brand_name": "Amutham",
-  "nav_home": "Inicio",
-  "nav_spices": "Especias",
-  "nav_oils": "Aceites esenciales",
-  "nav_herbs": "Hierbas secas",
-  "get_quote": "Solicitar una cotización",
-  "buy_now": "Comprar ahora",
+  "nav_home": "Home",
+  "nav_spices": "Spezie",
+  "nav_oils": "Oli Essenziali",
+  "nav_herbs": "Erbe Essiccate",
+  "get_quote": "Richiedi un Preventivo",
+  "buy_now": "Ordina Ora",
+  "enquire_now": "Richiedi Informazioni",
 
-  "home_title": "¡Bienvenido!",
-  "home_intro": "Exportamos especias, aceites esenciales y hierbas secas de alta calidad con envíos rápidos y confiables en todo el mundo.",
-  "our_products": "Nuestros Productos",
-  "our_products_desc": "Aquí están algunos de los productos que ofrecemos.",
+  "home_title": "Benvenuto!",
+  "home_intro": "Esportiamo spezie, oli essenziali ed erbe essiccate di alta qualità con spedizioni rapide e affidabili in tutto il mondo. Contattaci per scoprire l’intera gamma dei nostri prodotti.",
+  "our_products": "I Nostri Prodotti",
+  "our_products_desc": "Ecco alcuni dei prodotti che trattiamo.",
 
-  "spices_title": "Especias",
-  "spices_intro": "Suministramos varias variedades de especias, incluyendo cúrcuma, cúrcuma negra, jengibre negro, chile, nuez moscada, cilantro, cardamomo, clavo, canela, comino, ajowan, fenogreco, jengibre y pimienta negra.",
-  "spices_desc": "Las especias son ingredientes vegetales que aportan sabor, aroma y color a los alimentos. Usadas en todo el mundo en cocina, infusiones y bienestar.",
+  "spices_title": "Spezie",
+  "spices_intro": "Forniamo una vasta gamma di spezie, tra cui curcuma, curcuma nera, zenzero nero, peperoncino, noce moscata, coriandolo, cardamomo, chiodi di garofano, cannella, cumino, ajowan, fieno greco, zenzero e pepe nero.",
+  "spices_desc": "Le spezie sono ingredienti vegetali che aggiungono sapore, aroma e colore agli alimenti. Sono utilizzate in tutto il mondo in cucina, tisane e pratiche di benessere.",
 
-  "oils_title": "Aceites esenciales",
-  "oils_intro": "Suministramos aceites esenciales puros y naturales que se utilizan ampliamente en aromaterapia, cosmética, bienestar y formulaciones naturales.",
-  "oils_desc": "Los aceites esenciales son extractos concentrados de plantas conocidos por sus propiedades aromáticas, ampliamente utilizados en aromaterapia, cosmética y bienestar.",
+  "oils_title": "Oli Essenziali",
+  "oils_intro": "Forniamo oli essenziali puri e naturali ampiamente utilizzati in aromaterapia, cosmetica, benessere e formulazioni naturali.",
+  "oils_desc": "Gli oli essenziali sono estratti vegetali concentrati noti per le loro proprietà aromatiche, utilizzati in aromaterapia, cosmetica e benessere.",
 
-  "herbs_title": "Hierbas secas",
-  "herbs_intro": "Suministramos hierbas cuidadosamente secas que conservan su aroma natural, sabor y nutrientes para usos culinarios y de bienestar.",
-  "herbs_desc": "Las hierbas secas conservan el sabor y aroma natural, lo que las hace esenciales para sazonar, infusiones y prácticas tradicionales en todo el mundo.",
+  "herbs_title": "Erbe Essiccate",
+  "herbs_intro": "Forniamo erbe accuratamente essiccate che conservano il loro aroma, sapore e nutrienti naturali per usi culinari e di benessere.",
+  "herbs_desc": "Le erbe essiccate mantengono sapore e aroma naturali, essenziali per condimenti, tisane e pratiche tradizionali.",
 
-  "turmeric_title": "Cúrcuma",
-  "turmeric_desc": "La cúrcuma, una especia de color amarillo dorado de Curcuma longa, es apreciada por su sabor terroso, coloración natural y uso culinario tradicional.",
+  "turmeric_title": "Curcuma",
+  "turmeric_desc": "La curcuma, spezia giallo dorata ricavata dalla Curcuma longa, è apprezzata per il suo gusto terroso, il colore naturale e l’uso culinario tradizionale.",
 
-  "black_turmeric_title": "Cúrcuma negra",
-  "black_turmeric_desc": "La cúrcuma negra (Curcuma caesia Roxb., o zedoaria negra) es una hierba de gran importancia industrial en peligro crítico.",
+  "black_turmeric_title": "Curcuma Nera",
+  "black_turmeric_desc": "La curcuma nera (Curcuma caesia Roxb., o zedoaria nera) è un’erba di grande importanza industriale e a rischio critico di estinzione.",
 
-  "black_ginger_title": "Jengibre negro",
-  "black_ginger_desc": "El jengibre negro (Kaempferia parviflora) es una raíz rara originaria de Tailandia, utilizada para la vitalidad, resistencia y bienestar general.",
+  "black_ginger_title": "Zenzero Nero",
+  "black_ginger_desc": "Lo zenzero nero (Kaempferia parviflora) è una radice rara originaria della Thailandia, utilizzata per vitalità, resistenza e benessere generale.",
 
-  "chilli_title": "Chile",
-  "chilli_desc": "El chile, derivado de especies de Capsicum, es valorado por su picante, color vibrante y papel esencial en las cocinas del mundo.",
+  "chilli_title": "Peperoncino",
+  "chilli_desc": "Il peperoncino, derivato da specie di Capsicum, è apprezzato per la sua piccantezza, il colore vivace e il ruolo essenziale nelle tradizioni culinarie mondiali.",
 
-  "lavender_oil_title": "Aceite de lavanda",
-  "lavender_oil_desc": "El aceite de lavanda es conocido por su aroma calmante y se usa comúnmente para la relajación, el cuidado de la piel y el bienestar.",
+  "lavender_oil_title": "Olio di Lavanda",
+  "lavender_oil_desc": "L’olio di lavanda è noto per il suo aroma calmante ed è comunemente utilizzato nel rilassamento, nella cura della pelle e nel benessere.",
 
-  "peppermint_oil_title": "Aceite de menta",
-  "peppermint_oil_desc": "El aceite de menta proporciona un efecto refrescante y se valora en aromaterapia, cuidado bucal y uso culinario.",
+  "peppermint_oil_title": "Olio di Menta Piperita",
+  "peppermint_oil_desc": "L’olio di menta piperita ha un effetto rinfrescante ed è apprezzato in aromaterapia, igiene orale e cucina.",
 
-  "eucalyptus_oil_title": "Aceite de eucalipto",
-  "eucalyptus_oil_desc": "El aceite de eucalipto es apreciado por su aroma vigorizante y su uso tradicional en la salud respiratoria y la limpieza.",
+  "eucalyptus_oil_title": "Olio di Eucalipto",
+  "eucalyptus_oil_desc": "L’olio di eucalipto è apprezzato per il suo profumo tonificante e per l’uso tradizionale nel benessere respiratorio e nella purificazione.",
 
-  "basil_title": "Albahaca",
-  "basil_desc": "La albahaca seca aporta notas dulces y aromáticas a la cocina y se usa ampliamente en salsas, sopas y tés de hierbas.",
+  "basil_title": "Basilico",
+  "basil_desc": "Il basilico essiccato aggiunge note dolci e aromatiche alla cucina ed è ampiamente usato in salse, zuppe e tisane.",
 
-  "oregano_title": "Orégano",
-  "oregano_desc": "El orégano es una hierba seca sabrosa, utilizada con frecuencia en la cocina mediterránea y mundial por su fuerte aroma y sabor.",
+  "oregano_title": "Origano",
+  "oregano_desc": "L’origano è un’erba essiccata aromatica, ampiamente utilizzata nelle cucine mediterranee e internazionali per il suo aroma e sapore intensi.",
 
   "mint_title": "Menta",
-  "mint_desc": "La menta seca es refrescante, aromática y ampliamente utilizada en tés, bebidas y preparaciones herbales tradicionales."
+  "mint_desc": "La menta essiccata è rinfrescante, aromatica e ampiamente utilizzata in tisane, bevande e preparazioni tradizionali."
 }
