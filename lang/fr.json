@@ -5,50 +5,52 @@
   "nav_oils": "Huiles essentielles",
   "nav_herbs": "Herbes séchées",
   "get_quote": "Obtenir un devis",
-  "buy_now": "Acheter",
+  "buy_now": "Acheter maintenant",
 
-  "home_title": "Bienvenue chez Amutham Food Products",
-  "home_intro": "Nous livrons des épices, des herbes séchées et des huiles essentielles de haute qualité de l'Inde au monde.",
+  "home_title": "Bienvenue !",
+  "home_intro": "Nous exportons des épices, des huiles essentielles et des herbes séchées de haute qualité avec une expédition rapide et fiable dans le monde entier.",
+  "our_products": "Nos Produits",
+  "our_products_desc": "Voici quelques-uns des produits que nous proposons.",
 
   "spices_title": "Épices",
   "spices_intro": "Nous fournissons plusieurs variétés d'épices, y compris le curcuma, le curcuma noir, le gingembre noir, le piment, la muscade, la coriandre, la cardamome, le clou de girofle, la cannelle, le cumin, l'ajowan, le fenugrec, le gingembre et le poivre noir.",
+  "spices_desc": "Les épices sont des ingrédients d'origine végétale qui ajoutent de la saveur, de l'arôme et de la couleur aux aliments. Utilisées dans le monde entier en cuisine, dans les thés et le bien-être.",
+
+  "oils_title": "Huiles essentielles",
+  "oils_intro": "Nous fournissons des huiles essentielles pures et naturelles largement utilisées en aromathérapie, en cosmétique, dans le bien-être et les formulations naturelles.",
+  "oils_desc": "Les huiles essentielles sont des extraits de plantes concentrés connus pour leurs propriétés aromatiques, largement utilisés en aromathérapie, cosmétique et bien-être.",
+
+  "herbs_title": "Herbes séchées",
+  "herbs_intro": "Nous fournissons des herbes soigneusement séchées qui conservent leur arôme naturel, leur saveur et leurs nutriments pour des usages culinaires et de bien-être.",
+  "herbs_desc": "Les herbes séchées conservent leur saveur et leur arôme naturels, ce qui les rend essentielles pour l'assaisonnement, les thés et les pratiques traditionnelles dans le monde entier.",
 
   "turmeric_title": "Curcuma",
-  "turmeric_desc": "Le curcuma, une épice jaune doré de Curcuma longa, est apprécié pour sa saveur terreuse, sa coloration naturelle et son utilisation culinaire traditionnelle.",
+  "turmeric_desc": "Le curcuma, une épice jaune doré issue de Curcuma longa, est apprécié pour sa saveur terreuse, sa coloration naturelle et son usage culinaire traditionnel.",
 
   "black_turmeric_title": "Curcuma noir",
-  "black_turmeric_desc": "Le curcuma noir (Curcuma caesia Roxb., ou zédoaire noir) est une herbe en danger critique d'importance industrielle.",
+  "black_turmeric_desc": "Le curcuma noir (Curcuma caesia Roxb., ou Zédoaire noir) est une herbe industriellement importante et en danger critique.",
 
   "black_ginger_title": "Gingembre noir",
   "black_ginger_desc": "Le gingembre noir (Kaempferia parviflora) est une racine rare originaire de Thaïlande, utilisée pour la vitalité, l'endurance et le bien-être général.",
 
   "chilli_title": "Piment",
-  "chilli_desc": "Le piment, dérivé des espèces de Capsicum, est apprécié pour sa chaleur ardente, sa couleur vibrante et son rôle essentiel dans les traditions culinaires mondiales.",
-
-  "oils_title": "Huiles essentielles",
-  "oils_intro": "Nous fournissons des huiles essentielles pures et naturelles largement utilisées en aromathérapie, cosmétique, bien-être et formulations naturelles.",
+  "chilli_desc": "Le piment, issu des espèces de Capsicum, est apprécié pour son piquant, sa couleur vive et son rôle essentiel dans les cuisines du monde entier.",
 
   "lavender_oil_title": "Huile de lavande",
-  "lavender_oil_desc": "L'huile de lavande est connue pour son arôme apaisant et est utilisée pour la détente, les soins de la peau et le bien-être.",
+  "lavender_oil_desc": "L'huile de lavande est connue pour son arôme apaisant et est couramment utilisée pour la relaxation, les soins de la peau et le bien-être.",
 
   "peppermint_oil_title": "Huile de menthe poivrée",
-  "peppermint_oil_desc": "L'huile de menthe poivrée apporte un effet rafraîchissant et est appréciée en aromathérapie, soins bucco-dentaires et cuisine.",
+  "peppermint_oil_desc": "L'huile de menthe poivrée procure un effet rafraîchissant et est appréciée en aromathérapie, en soins bucco-dentaires et en cuisine.",
 
   "eucalyptus_oil_title": "Huile d'eucalyptus",
-  "eucalyptus_oil_desc": "L'huile d'eucalyptus est appréciée pour son parfum vivifiant et son utilisation traditionnelle dans le bien-être respiratoire et le nettoyage.",
-
-
-  "herbs_title": "Herbes séchées",
-  "herbs_intro": "Nous fournissons des herbes soigneusement séchées qui conservent leur arôme, saveur et nutriments naturels pour la cuisine et le bien-être.",
+  "eucalyptus_oil_desc": "L'huile d'eucalyptus est appréciée pour son parfum vivifiant et son usage traditionnel pour la santé respiratoire et le nettoyage.",
 
   "basil_title": "Basilic",
-  "basil_desc": "Le basilic séché ajoute des notes sucrées et aromatiques aux plats, largement utilisé dans les sauces, soupes et tisanes.",
+  "basil_desc": "Le basilic séché apporte des notes douces et aromatiques à la cuisine et est largement utilisé dans les sauces, soupes et tisanes.",
 
   "oregano_title": "Origan",
-  "oregano_desc": "L'origan est une herbe séchée savoureuse, utilisée dans les cuisines méditerranéennes et mondiales pour son arôme et son goût prononcés.",
+  "oregano_desc": "L'origan est une herbe séchée savoureuse, souvent utilisée dans les cuisines méditerranéenne et mondiale pour son arôme et son goût prononcés.",
 
   "mint_title": "Menthe",
-  "mint_desc": "La menthe séchée est rafraîchissante et aromatique, largement utilisée dans les thés, boissons et préparations à base de plantes."
+  "mint_desc": "La menthe séchée est rafraîchissante, aromatique et largement utilisée dans les thés, les boissons et les préparations traditionnelles à base de plantes."
 }
-
-
