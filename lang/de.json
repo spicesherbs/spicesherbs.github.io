@@ -4,51 +4,53 @@
   "nav_spices": "Gewürze",
   "nav_oils": "Ätherische Öle",
   "nav_herbs": "Getrocknete Kräuter",
-  "get_quote": "Angebot einholen",
+  "get_quote": "Angebot anfordern",
   "buy_now": "Jetzt kaufen",
 
-  "home_title": "Willkommen bei Amutham Food Products",
-  "home_intro": "Wir liefern hochwertige Gewürze, getrocknete Kräuter und ätherische Öle aus Indien in die ganze Welt.",
+  "home_title": "Willkommen!",
+  "home_intro": "Wir exportieren hochwertige Gewürze, ätherische Öle und getrocknete Kräuter mit schneller, zuverlässiger Lieferung weltweit.",
+  "our_products": "Unsere Produkte",
+  "our_products_desc": "Hier sind einige der Produkte, mit denen wir handeln.",
 
   "spices_title": "Gewürze",
-  "spices_intro": "Wir liefern verschiedene Gewürze, darunter Kurkuma, Schwarzer Kurkuma, Schwarzer Ingwer, Chili, Muskat, Koriander, Kardamom, Nelken, Zimt, Kreuzkümmel, Ajowan, Bockshornklee, Ingwer und Schwarzer Pfeffer.",
+  "spices_intro": "Wir liefern verschiedene Arten von Gewürzen, darunter Kurkuma, Schwarzer Kurkuma, Schwarzer Ingwer, Chili, Muskat, Koriander, Kardamom, Nelken, Zimt, Kreuzkümmel, Ajowan, Bockshornklee, Ingwer und Schwarzer Pfeffer.",
+  "spices_desc": "Gewürze sind pflanzliche Zutaten, die Geschmack, Aroma und Farbe verleihen. Weltweit in der Küche, in Tees und im Wellnessbereich verwendet.",
+
+  "oils_title": "Ätherische Öle",
+  "oils_intro": "Wir liefern reine und natürliche ätherische Öle, die in Aromatherapie, Kosmetik, Wellness und Naturprodukten weit verbreitet sind.",
+  "oils_desc": "Ätherische Öle sind konzentrierte Pflanzenextrakte, die für ihre aromatischen Eigenschaften bekannt sind, weit verbreitet in Aromatherapie, Kosmetik und Wellness.",
+
+  "herbs_title": "Getrocknete Kräuter",
+  "herbs_intro": "Wir liefern sorgfältig getrocknete Kräuter, die ihr natürliches Aroma, ihren Geschmack und ihre Nährstoffe für kulinarische und gesundheitliche Zwecke bewahren.",
+  "herbs_desc": "Getrocknete Kräuter bewahren ihren natürlichen Geschmack und ihr Aroma und sind weltweit wichtig für Würzungen, Tees und traditionelle Praktiken.",
 
   "turmeric_title": "Kurkuma",
-  "turmeric_desc": "Kurkuma, ein goldgelbes Gewürz aus Curcuma longa, ist für seinen erdigen Geschmack, seine natürliche Färbung und seine traditionelle kulinarische Verwendung geschätzt.",
+  "turmeric_desc": "Kurkuma, ein goldgelbes Gewürz aus Curcuma longa, wird für seinen erdigen Geschmack, seine natürliche Färbung und seine traditionelle Verwendung geschätzt.",
 
   "black_turmeric_title": "Schwarzer Kurkuma",
-  "black_turmeric_desc": "Schwarzer Kurkuma (Curcuma caesia Roxb., oder Schwarzer Zedoar) ist ein industriell wichtiges, stark gefährdetes Kraut.",
+  "black_turmeric_desc": "Schwarzer Kurkuma (Curcuma caesia Roxb., oder Schwarzer Zedoaria) ist ein industriell bedeutendes, stark gefährdetes Kraut.",
 
   "black_ginger_title": "Schwarzer Ingwer",
   "black_ginger_desc": "Schwarzer Ingwer (Kaempferia parviflora) ist eine seltene Wurzel aus Thailand, die für Vitalität, Ausdauer und allgemeines Wohlbefinden verwendet wird.",
 
   "chilli_title": "Chili",
-  "chilli_desc": "Chili, gewonnen aus Capsicum-Arten, ist bekannt für seine Schärfe, seine leuchtende Farbe und seine wichtige Rolle in globalen kulinarischen Traditionen.",
-
-  "oils_title": "Ätherische Öle",
-  "oils_intro": "Wir liefern reine und natürliche ätherische Öle, die in Aromatherapie, Kosmetik, Wellness und natürlichen Formulierungen verwendet werden.",
+  "chilli_desc": "Chili, aus Capsicum-Arten gewonnen, wird für seine Schärfe, leuchtende Farbe und seine wesentliche Rolle in globalen Küchen geschätzt.",
 
   "lavender_oil_title": "Lavendelöl",
-  "lavender_oil_desc": "Lavendelöl ist für sein beruhigendes Aroma bekannt und wird häufig für Entspannung, Hautpflege und Wellness eingesetzt.",
+  "lavender_oil_desc": "Lavendelöl ist für sein beruhigendes Aroma bekannt und wird häufig für Entspannung, Hautpflege und Wellness verwendet.",
 
   "peppermint_oil_title": "Pfefferminzöl",
-  "peppermint_oil_desc": "Pfefferminzöl wirkt erfrischend und kühlend und ist beliebt in Aromatherapie, Mundpflege und Küche.",
+  "peppermint_oil_desc": "Pfefferminzöl sorgt für einen erfrischenden Kühleffekt und wird in Aromatherapie, Mundpflege und Küche geschätzt.",
 
   "eucalyptus_oil_title": "Eukalyptusöl",
   "eucalyptus_oil_desc": "Eukalyptusöl wird für seinen belebenden Duft und die traditionelle Anwendung bei Atemwegsgesundheit und Reinigung geschätzt.",
 
-
-  "herbs_title": "Getrocknete Kräuter",
-  "herbs_intro": "Wir liefern sorgfältig getrocknete Kräuter, die Aroma, Geschmack und Nährstoffe für Küche und Wellness bewahren.",
-
   "basil_title": "Basilikum",
-  "basil_desc": "Getrocknetes Basilikum verleiht süße, aromatische Noten und wird in Soßen, Suppen und Tees verwendet.",
+  "basil_desc": "Getrocknetes Basilikum verleiht Speisen süße, aromatische Noten und wird häufig in Soßen, Suppen und Kräutertees verwendet.",
 
   "oregano_title": "Oregano",
-  "oregano_desc": "Oregano ist ein geschmacksintensives getrocknetes Kraut, weit verbreitet in mediterraner und internationaler Küche.",
+  "oregano_desc": "Oregano ist ein aromatisches getrocknetes Kraut, das in mediterranen und weltweiten Küchen für seinen kräftigen Geschmack verwendet wird.",
 
   "mint_title": "Minze",
-  "mint_desc": "Getrocknete Minze ist erfrischend, aromatisch und wird häufig in Tees, Getränken und traditionellen Kräuterpräparaten verwendet."
+  "mint_desc": "Getrocknete Minze ist erfrischend, aromatisch und wird weltweit in Tees, Getränken und traditionellen Kräuterzubereitungen verwendet."
 }
-
-
