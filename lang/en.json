@@ -14,7 +14,20 @@
 
   "spices_title": "Spices",
   "spices_intro": "We supply several varieties of spices, including but not limited to Turmeric, Black Turmeric, Black Ginger, Chilli, Nutmeg, Coriander, Cardamom, Clove, Cinnamon, Jeera, Ajowan, Fenugreek, Ginger, and Black pepper.",
+  "spices_desc": "Spices are plant-based ingredients adding flavor, aroma, and color to food. Used worldwide in cooking, teas, and wellness.",
 
+  
+  "oils_title": "Essential Oils",
+  "oils_intro": "We supply pure and natural essential oils that are widely used in aromatherapy, cosmetics, wellness, and natural formulations.",
+  "oils_desc": "Essential oils are concentrated plant extracts known for their aromatic properties, widely used in aromatherapy, cosmetics, and wellness.",
+
+  
+  "herbs_title": "Dried Herbs",
+  "herbs_intro": "We supply carefully dried herbs that retain natural aroma, flavor, and nutrients for culinary and wellness uses.",
+  "herbs_desc": "Dried herbs retain natural flavor and aroma, making them essential for seasoning, teas, and traditional practices worldwide.",
+
+
+  
   "turmeric_title": "Turmeric",
   "turmeric_desc": "Turmeric, a golden-yellow spice from Curcuma longa, is prized for its earthy flavor, natural coloring, and traditional culinary use.",
 
@@ -27,9 +40,6 @@
   "chilli_title": "Chilli",
   "chilli_desc": "Chilli, derived from Capsicum species, is valued for its fiery heat, vibrant color, and essential role in global culinary traditions.",
  
-  "oils_title": "Essential Oils",
-  "oils_intro": "We supply pure and natural essential oils that are widely used in aromatherapy, cosmetics, wellness, and natural formulations.",
-
   "lavender_oil_title": "Lavender Oil",
   "lavender_oil_desc": "Lavender oil is known for its calming aroma and is commonly used in relaxation, skincare, and wellness applications.",
 
@@ -39,9 +49,6 @@
   "eucalyptus_oil_title": "Eucalyptus Oil",
   "eucalyptus_oil_desc": "Eucalyptus oil is valued for its invigorating scent and traditional use in respiratory wellness and cleansing.",
 
-
-  "herbs_title": "Dried Herbs",
-  "herbs_intro": "We supply carefully dried herbs that retain natural aroma, flavor, and nutrients for culinary and wellness uses.",
 
   "basil_title": "Basil",
   "basil_desc": "Dried basil adds sweet, aromatic notes to cooking and is widely used in sauces, soups, and herbal teas.",
@@ -53,6 +60,7 @@
   "mint_desc": "Dried mint is refreshing, aromatic, and widely used in teas, beverages, and traditional herbal preparations."
 
 }
+
 
 
 
