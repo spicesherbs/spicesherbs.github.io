@@ -15,7 +15,7 @@ async function renderProducts(category, containerId) {
           <div class="card-body">
             <h3 class="card-title mt-3" data-i18n="${product.id}_title">${product.id}</h3>
             <p class="card-text mt-3 mb-4" data-i18n="${product.id}_desc"></p>
-            <a href="mailto:info@example.com?subject=Enquiry about ${product.id}" class="custom_orange-btn" data-i18n="buy_now">Order Now</a>
+            <a href="mailto:order@uyufoods.com?subject=Enquiry about ${product.id}" class="custom_orange-btn" data-i18n="buy_now">Order Now</a>
           </div>
         </div>
       `;
