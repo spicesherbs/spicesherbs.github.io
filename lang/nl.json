@@ -2,55 +2,56 @@
   "brand_name": "Amutham",
   "nav_home": "Home",
   "nav_spices": "Specerijen",
-  "nav_oils": "Essentiële oliën",
-  "nav_herbs": "Gedroogde kruiden",
-  "get_quote": "Vraag een offerte aan",
-  "buy_now": "Koop nu",
+  "nav_oils": "Essentiële Oliën",
+  "nav_herbs": "Gedroogde Kruiden",
+  "get_quote": "Vraag een Offerte aan",
+  "buy_now": "Bestel Nu",
+  "enquire_now": "Vraag Meer Informatie",
 
   "home_title": "Welkom!",
-  "home_intro": "Wij exporteren hoogwaardige specerijen, essentiële oliën en gedroogde kruiden met snelle en betrouwbare wereldwijde verzending.",
+  "home_intro": "Wij exporteren hoogwaardige specerijen, essentiële oliën en gedroogde kruiden met snelle en betrouwbare wereldwijde levering. Neem contact met ons op om meer te weten te komen over ons volledige assortiment.",
   "our_products": "Onze Producten",
-  "our_products_desc": "Hier zijn enkele van de producten waarmee wij werken.",
+  "our_products_desc": "Hier zijn enkele van de producten die wij aanbieden.",
 
   "spices_title": "Specerijen",
-  "spices_intro": "Wij leveren verschillende soorten specerijen, waaronder kurkuma, zwarte kurkuma, zwarte gember, chili, nootmuskaat, koriander, kardemom, kruidnagel, kaneel, komijn, ajowan, fenegriek, gember en zwarte peper.",
-  "spices_desc": "Specerijen zijn plantaardige ingrediënten die smaak, aroma en kleur aan voedsel toevoegen. Wereldwijd gebruikt in koken, thee en welzijn.",
+  "spices_intro": "Wij leveren een breed scala aan specerijen, waaronder kurkuma, zwarte kurkuma, zwarte gember, chili, nootmuskaat, koriander, kardemom, kruidnagel, kaneel, komijn, ajowan, fenegriek, gember en zwarte peper.",
+  "spices_desc": "Specerijen zijn plantaardige ingrediënten die smaak, aroma en kleur aan voedsel toevoegen. Ze worden wereldwijd gebruikt in koken, thee en gezondheidspraktijken.",
 
-  "oils_title": "Essentiële oliën",
-  "oils_intro": "Wij leveren pure en natuurlijke essentiële oliën die veel gebruikt worden in aromatherapie, cosmetica, welzijn en natuurlijke formules.",
-  "oils_desc": "Essentiële oliën zijn geconcentreerde plantenextracten die bekend staan om hun aromatische eigenschappen en veel gebruikt worden in aromatherapie en cosmetica.",
+  "oils_title": "Essentiële Oliën",
+  "oils_intro": "Wij leveren pure en natuurlijke essentiële oliën die veel worden gebruikt in aromatherapie, cosmetica, welzijn en natuurlijke formules.",
+  "oils_desc": "Essentiële oliën zijn geconcentreerde plantenextracten die bekend staan om hun aromatische eigenschappen en breed worden toegepast in welzijn en verzorging.",
 
-  "herbs_title": "Gedroogde kruiden",
-  "herbs_intro": "Wij leveren zorgvuldig gedroogde kruiden die hun natuurlijke aroma, smaak en voedingsstoffen behouden voor culinaire en wellness-toepassingen.",
-  "herbs_desc": "Gedroogde kruiden behouden hun natuurlijke smaak en aroma, waardoor ze onmisbaar zijn voor kruiden, thee en traditionele toepassingen.",
+  "herbs_title": "Gedroogde Kruiden",
+  "herbs_intro": "Wij leveren zorgvuldig gedroogde kruiden die hun natuurlijke aroma, smaak en voedingsstoffen behouden voor culinaire en wellnessdoeleinden.",
+  "herbs_desc": "Gedroogde kruiden behouden hun natuurlijke smaak en geur en zijn onmisbaar in gerechten, thee en traditionele toepassingen.",
 
   "turmeric_title": "Kurkuma",
-  "turmeric_desc": "Kurkuma, een goudgele specerij van Curcuma longa, wordt gewaardeerd om zijn aardse smaak, natuurlijke kleurstof en traditionele culinaire toepassingen.",
+  "turmeric_desc": "Kurkuma, een goudgele specerij van Curcuma longa, wordt gewaardeerd om zijn aardse smaak, natuurlijke kleur en traditionele culinaire toepassingen.",
 
-  "black_turmeric_title": "Zwarte kurkuma",
+  "black_turmeric_title": "Zwarte Kurkuma",
   "black_turmeric_desc": "Zwarte kurkuma (Curcuma caesia Roxb., of zwarte zedoaria) is een industrieel belangrijke en ernstig bedreigde plant.",
 
-  "black_ginger_title": "Zwarte gember",
+  "black_ginger_title": "Zwarte Gember",
   "black_ginger_desc": "Zwarte gember (Kaempferia parviflora) is een zeldzame wortel uit Thailand, gebruikt voor vitaliteit, uithoudingsvermogen en algemeen welzijn.",
 
   "chilli_title": "Chili",
-  "chilli_desc": "Chili, afkomstig van Capsicum-soorten, staat bekend om zijn pittige smaak, levendige kleur en essentiële rol in wereldwijde culinaire tradities.",
+  "chilli_desc": "Chili, afkomstig van Capsicum-soorten, staat bekend om zijn pittigheid, levendige kleur en belangrijke rol in wereldwijde keukens.",
 
   "lavender_oil_title": "Lavendelolie",
-  "lavender_oil_desc": "Lavendelolie staat bekend om zijn kalmerende geur en wordt veel gebruikt voor ontspanning, huidverzorging en welzijn.",
+  "lavender_oil_desc": "Lavendelolie staat bekend om zijn rustgevende geur en wordt veel gebruikt voor ontspanning, huidverzorging en welzijn.",
 
   "peppermint_oil_title": "Pepermuntolie",
-  "peppermint_oil_desc": "Pepermuntolie geeft een verfrissend verkoelend effect en wordt gewaardeerd in aromatherapie, mondverzorging en culinaire toepassingen.",
+  "peppermint_oil_desc": "Pepermuntolie geeft een verfrissend koelend effect en wordt gewaardeerd in aromatherapie, mondverzorging en kooktoepassingen.",
 
   "eucalyptus_oil_title": "Eucalyptusolie",
-  "eucalyptus_oil_desc": "Eucalyptusolie staat bekend om zijn verkwikkende geur en traditionele gebruik in ademhalingswelzijn en reiniging.",
+  "eucalyptus_oil_desc": "Eucalyptusolie wordt gewaardeerd om zijn verkwikkende geur en traditioneel gebruik voor ademhalingsgezondheid en reiniging.",
 
   "basil_title": "Basilicum",
-  "basil_desc": "Gedroogde basilicum voegt een zoete, aromatische toets toe aan gerechten en wordt veel gebruikt in sauzen, soepen en kruidenthee.",
+  "basil_desc": "Gedroogde basilicum geeft een zoete, aromatische smaak aan gerechten en wordt vaak gebruikt in sauzen, soepen en kruidenthee.",
 
   "oregano_title": "Oregano",
-  "oregano_desc": "Oregano is een smaakvol gedroogd kruid dat vaak wordt gebruikt in de mediterrane en internationale keuken vanwege zijn sterke aroma en smaak.",
+  "oregano_desc": "Oregano is een aromatisch gedroogd kruid dat veel wordt gebruikt in de mediterrane en internationale keuken vanwege zijn sterke smaak en geur.",
 
   "mint_title": "Munt",
-  "mint_desc": "Gedroogde munt is verfrissend, aromatisch en wordt veel gebruikt in thee, dranken en traditionele kruidenpreparaten."
+  "mint_desc": "Gedroogde munt is verfrissend, aromatisch en wordt veel gebruikt in thee, dranken en traditionele kruidenmengsels."
 }
