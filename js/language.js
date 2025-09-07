@@ -1,30 +1,25 @@
-document.addEventListener('DOMContentLoaded', () => {
-  const switcher = document.getElementById('languageSwitcher');
-  if (!switcher) return;
+document.addEventListener("DOMContentLoaded", function () {
+  const langSelector = document.getElementById("languageSwitcher");
+  if (!langSelector) return;
 
-  // Load default language
-  loadLanguage(switcher.value);
+  const savedLang = localStorage.getItem("language") || "en";
+  langSelector.value = savedLang;
+  loadLanguage(savedLang);
 
-  // On change
-  switcher.addEventListener('change', () => {
-    loadLanguage(switcher.value);
+  langSelector.addEventListener("change", function () {
+    const lang = this.value;
+    localStorage.setItem("language", lang);
+    loadLanguage(lang);
   });
-});
 
-function loadLanguage(lang) {
-  fetch(`lang/${lang}.json`)
-    .then(response => {
-      if (!response.ok) throw new Error(`Could not load ${lang}.json`);
-      return response.json();
-    })
-    .then(translations => {
-      // Find all elements with data-i18n
-      document.querySelectorAll('[data-i18n]').forEach(el => {
-        const key = el.getAttribute('data-i18n');
-        if (translations[key]) {
-          el.textContent = translations[key];
-        }
+  function loadLanguage(lang) {
+    fetch(`lang/${lang}.json`)
+      .then(res => res.json())
+      .then(data => {
+        document.querySelectorAll("[data-i18n]").forEach(el => {
+          const key = el.getAttribute("data-i18n");
+          if (data[key]) el.textContent = data[key];
+        });
       });
-    })
-    .catch(err => console.error('Language load error:', err));
-}
+  }
+});
