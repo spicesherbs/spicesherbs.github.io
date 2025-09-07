@@ -52,12 +52,12 @@ body {
 }
 
 .custom_orange-btn {
-  background-color: #fc5d35;
+  background-color: #6aa84f;
 }
 
 .custom_orange-btn:hover {
-  border: 1px solid #fc5d35;
-  color: #fc5d35;
+  border: 1px solid #6aa84f;
+  color: #6aa84f;
   background-color: transparent;
 }
 
@@ -171,7 +171,7 @@ a:focus {
 .quote_btn-container a {
   display: inline-block;
   padding: 5px 15px;
-  background-color: #fc5d35;
+  background-color: #6aa84f;
   color: #f7f7f7;
   font-size: 14px;
   text-transform: uppercase;
@@ -259,7 +259,7 @@ a:focus {
 
 .slider_section .custom_carousel-control .carousel-control-prev {
   background-image: url(../images/prev.png);
-  background-color: #fc5d35;
+  background-color: #6aa84f;
 }
 
 .slider_section .custom_carousel-control .carousel-control-next {
@@ -283,7 +283,7 @@ a:focus {
 }
 
 .service_section .card .card-title {
-  color: #fc5d35;
+  color: #6aa84f;
 
 }
 
@@ -306,7 +306,7 @@ a:focus {
 }
 
 .service_section .card:hover::after {
-  background-color: #fc5d35;
+  background-color: #6aa84f;
 }
 
 /* end service section */
@@ -385,7 +385,7 @@ a:focus {
 
 .client_section .custom_carousel-control .carousel-control-prev:hover,
 .client_section .custom_carousel-control .carousel-control-next:hover {
-  background-color: #fc5d35;
+  background-color: #6aa84f;
 }
 
 .client_section .custom_carousel-control .carousel-control-prev {
@@ -422,7 +422,7 @@ a:focus {
 
 .contact_form-container button {
   border: none;
-  background-color: #fc5d35;
+  background-color: #6aa84f;
   color: #fff;
   padding: 8px 40px;
   text-transform: uppercase;
@@ -471,7 +471,7 @@ a:focus {
 }
 
 .info_section .form_container button {
-  background-color: #fc5d35;
+  background-color: #6aa84f;
   border: none;
   outline: none;
   color: #fff;
