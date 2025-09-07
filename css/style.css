@@ -272,8 +272,8 @@ a:focus {
 
 /* service section */
 .service_section .card .card-img-top {
-  width: 50px;
-  margin: 55px auto 5px auto;
+  width: 250px;
+  margin: 255px auto 5px auto;
 }
 
 .service_section .card {
