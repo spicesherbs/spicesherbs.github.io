@@ -1,0 +1,56 @@
+{
+  "brand_name": "Amutham",
+  "nav_home": "首页",
+  "nav_spices": "香料",
+  "nav_oils": "精油",
+  "nav_herbs": "干燥草药",
+  "get_quote": "获取报价",
+  "buy_now": "立即购买",
+
+  "home_title": "欢迎！",
+  "home_intro": "我们出口高品质的香料、精油和干燥草药，并提供快速可靠的全球运输服务。",
+  "our_products": "我们的产品",
+  "our_products_desc": "以下是我们经营的一些产品。",
+
+  "spices_title": "香料",
+  "spices_intro": "我们供应多种香料，包括但不限于姜黄、黑姜黄、黑姜、辣椒、肉豆蔻、芫荽、豆蔻、丁香、肉桂、孜然、欧芹籽、葫芦巴、姜和黑胡椒。",
+  "spices_desc": "香料是植物性原料，为食物增添风味、香气和色泽。广泛用于烹饪、茶饮和健康养生。",
+
+  "oils_title": "精油",
+  "oils_intro": "我们供应纯天然精油，广泛用于芳香疗法、化妆品、健康和天然配方。",
+  "oils_desc": "精油是植物浓缩提取物，以其芳香特性闻名，广泛用于芳香疗法、化妆品和健康。",
+
+  "herbs_title": "干燥草药",
+  "herbs_intro": "我们供应精心干燥的草药，保留天然香气、风味和营养，用于烹饪和养生。",
+  "herbs_desc": "干燥草药保留天然的风味和香气，是调味、茶饮和传统用途的重要材料。",
+
+  "turmeric_title": "姜黄",
+  "turmeric_desc": "姜黄，来自姜黄属植物，呈金黄色，以其泥土般的风味、天然着色和传统烹饪用途而闻名。",
+
+  "black_turmeric_title": "黑姜黄",
+  "black_turmeric_desc": "黑姜黄（Curcuma caesia Roxb.，又称黑莪术）是一种具有重要工业价值的极危草本植物。",
+
+  "black_ginger_title": "黑姜",
+  "black_ginger_desc": "黑姜（Kaempferia parviflora）是一种原产于泰国的稀有根茎，用于提升活力、耐力和整体健康。",
+
+  "chilli_title": "辣椒",
+  "chilli_desc": "辣椒源自辣椒属植物，以其辛辣、鲜艳的颜色和在全球烹饪中的重要地位而闻名。",
+
+  "lavender_oil_title": "薰衣草精油",
+  "lavender_oil_desc": "薰衣草精油以其舒缓的香气闻名，常用于放松、护肤和健康应用。",
+
+  "peppermint_oil_title": "薄荷精油",
+  "peppermint_oil_desc": "薄荷精油带来清凉感，在芳香疗法、口腔护理和烹饪中广受欢迎。",
+
+  "eucalyptus_oil_title": "桉树精油",
+  "eucalyptus_oil_desc": "桉树精油以其提神的香气和在呼吸系统健康及清洁中的传统用途而受到重视。",
+
+  "basil_title": "罗勒",
+  "basil_desc": "干燥罗勒为菜肴增添甜美的芳香，广泛用于酱料、汤品和草本茶。",
+
+  "oregano_title": "牛至",
+  "oregano_desc": "牛至是一种芳香干燥草药，常用于地中海及全球美食，以其浓郁香气和味道著称。",
+
+  "mint_title": "薄荷",
+  "mint_desc": "干燥薄荷清新芳香，广泛用于茶饮、饮料和传统草本制剂。"
+}
