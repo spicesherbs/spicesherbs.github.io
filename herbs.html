@@ -82,9 +82,8 @@
       We supply carefully dried herbs that retain natural aroma, flavor, and nutrients for culinary and wellness uses.
     </p>
 
-    <div class="row">
+    <!--div class="row">
 
-      <!-- Basil -->
       <div class="col-md-6 mb-4">
         <div class="card h-100 border text-center p-3">
           <img src="images/basil.png" alt="Basil" class="mx-auto d-block" style="width:100px;" />
@@ -98,7 +97,6 @@
         </div>
       </div>
 
-      <!-- Oregano -->
       <div class="col-md-6 mb-4">
         <div class="card h-100 border text-center p-3">
           <img src="images/oregano.png" alt="Oregano" class="mx-auto d-block" style="width:100px;" />
@@ -112,7 +110,6 @@
         </div>
       </div>
 
-      <!-- Mint -->
       <div class="col-md-6 mb-4">
         <div class="card h-100 border text-center p-3">
           <img src="images/mint.png" alt="Mint" class="mx-auto d-block" style="width:100px;" />
@@ -126,9 +123,16 @@
         </div>
       </div>
 
-    </div>
+    </div-->
+    <div class="row" id="herbs-container"></div>
+<script src="js/products.js"></script>
+<script>
+  renderProducts("herbs", "herbs-container");
+</script>
+
   </div>
-</section>
+    
+  </section>
 
 
   <section class="container-fluid footer_section">
@@ -138,6 +142,8 @@
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
   <script src="js/language.js"></script>
+  <script src="js/products.js"></script>
+
 </body>
 
 </html>
