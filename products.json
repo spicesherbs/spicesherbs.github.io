@@ -1,0 +1,18 @@
+{
+  "spices": [
+    { "id": "turmeric", "image": "images/turmeric.png" },
+    { "id": "black_turmeric", "image": "images/black_turmeric.png" },
+    { "id": "black_ginger", "image": "images/black_turmeric.png" },
+    { "id": "chilli", "image": "images/chilli.png" }
+  ],
+  "oils": [
+    { "id": "lavender_oil", "image": "images/lavender.png" },
+    { "id": "peppermint_oil", "image": "images/peppermint.png" },
+    { "id": "eucalyptus_oil", "image": "images/eucalyptus.png" }
+  ],
+  "herbs": [
+    { "id": "basil", "image": "images/basil.png" },
+    { "id": "oregano", "image": "images/oregano.png" },
+    { "id": "mint", "image": "images/mint.png" }
+  ]
+}
