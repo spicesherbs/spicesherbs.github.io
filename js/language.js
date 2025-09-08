@@ -55,19 +55,6 @@
     document.querySelectorAll("[data-i18n]").forEach(applyTo);
   }
 
-  // ✅ Hide broken client images
-  function hideBrokenClientImages(root = document) {
-    root.querySelectorAll(".client_img-box img").forEach((img) => {
-      img.onerror = () => {
-        img.style.display = "none";
-      };
-      // If image already failed before handler attached
-      if (img.complete && img.naturalWidth === 0) {
-        img.style.display = "none";
-      }
-    });
-  }
-
   function observeNewNodes() {
     const obs = new MutationObserver((mutations) => {
       for (const m of mutations) {
@@ -77,14 +64,6 @@
 
             if (node.hasAttribute && node.hasAttribute("data-i18n")) applyTo(node);
             node.querySelectorAll?.("[data-i18n]").forEach(applyTo);
-
-            // ✅ Also check for new images
-            if (node.matches?.(".client_img-box img")) {
-              hideBrokenClientImages(node.parentElement || node);
-            }
-            node.querySelectorAll?.(".client_img-box img").forEach((img) => {
-              hideBrokenClientImages(img.parentElement || node);
-            });
           });
         } else if (m.type === "attributes" && m.attributeName === "data-i18n") {
           applyTo(m.target);
@@ -121,6 +100,14 @@
     }
     await applyTranslations(currentLang);
     observeNewNodes();
-    hideBrokenClientImages(); // ✅ check existing images immediately
   });
+
+  // ✅ Global broken image handler (covers testimonials + products + any other <img>)
+  window.addEventListener("error", (e) => {
+    const target = e.target;
+    if (target && target.tagName === "IMG") {
+      target.style.display = "none"; // hide broken image
+      // OR fallback: target.src = "images/placeholder.png";
+    }
+  }, true); // useCapture=true so <img> errors are caught
 })();
