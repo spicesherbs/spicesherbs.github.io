@@ -113,9 +113,10 @@
     document.querySelectorAll(".client_img-box img").forEach((img) => {
       img.onerror = () => {
         img.style.display = "none";
-        img.parentElement.style.display = "none";
       };
     });
+    
   });
 })();
+
 
