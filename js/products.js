@@ -13,7 +13,7 @@ async function renderProducts(category, containerId) {
       card.className = "col-md-6 mb-4";
       card.innerHTML = `
         <div class="card h-100 border text-center p-3">
-          <img src="${product.image}" alt="${product.title}" class="mx-auto d-block" style="width:100px;" />
+          <img src="${product.image}" alt="${product.title}" class="mx-auto d-block product-img" style="width:100px;" />
           <div class="card-body">
             <h3 class="card-title mt-3" data-i18n="${product.id}_title">${product.title}</h3>
             <p class="card-text mt-3 mb-4" data-i18n="${product.id}_desc">${product.description}</p>
@@ -23,6 +23,17 @@ async function renderProducts(category, containerId) {
         </div>
       `;
       container.appendChild(card);
+
+      // ✅ Hide broken product images
+      const img = card.querySelector(".product-img");
+      if (img) {
+        img.onerror = () => {
+          img.style.display = "none";
+        };
+        if (img.complete && img.naturalWidth === 0) {
+          img.style.display = "none";
+        }
+      }
     });
 
     // Detect saved or browser language
