@@ -1,128 +1,66 @@
 {
   "spices": [
-    {
-      "id": "turmeric",
-      "image": "images/turmeric.png",
-      "defaultTitle": "Turmeric",
-      "defaultDesc": "Turmeric, a golden-yellow spice from Curcuma longa, is prized for its earthy flavor, natural coloring, and traditional culinary use."
-    },
-    {
-      "id": "black_turmeric",
-      "image": "images/black_turmeric.png",
-      "defaultTitle": "Black Turmeric",
-      "defaultDesc": "Black turmeric (Curcuma caesia Roxb., or Black zedoary) is an industrially important critically endangered herb."
-    },
-    {
-      "id": "ginger",
-      "image": "images/ginger.png",
-      "defaultTitle": "Ginger",
-      "defaultDesc": "Ginger is a versatile spice and herb known for its pungent flavor and use in both culinary and wellness traditions."
-    },
-    {
-      "id": "black_ginger",
-      "image": "images/black_ginger.png",
-      "defaultTitle": "Black Ginger",
-      "defaultDesc": "Black ginger (Kaempferia parviflora) is a rare root native to Thailand, used for vitality, stamina, and overall wellness."
-    },
-    {
-      "id": "nutmeg",
-      "image": "images/nutmeg.png",
-      "defaultTitle": "Nutmeg",
-      "defaultDesc": "Nutmeg is a warm, aromatic spice used in sweet and savory dishes, prized for its distinctive flavor and fragrance."
-    },
-    {
-      "id": "coriander",
-      "image": "images/coriander.png",
-      "defaultTitle": "Coriander",
-      "defaultDesc": "Coriander seeds have a citrusy, nutty flavor and are widely used in global cuisines and spice blends."
-    },
-    {
-      "id": "cardamom",
-      "image": "images/cardamom.png",
-      "defaultTitle": "Cardamom",
-      "defaultDesc": "Cardamom is an aromatic spice known for its sweet, spicy flavor, often used in desserts, teas, and savory dishes."
-    },
-    {
-      "id": "clove",
-      "image": "images/clove.png",
-      "defaultTitle": "Clove",
-      "defaultDesc": "Cloves are aromatic flower buds valued for their strong, pungent flavor and use in cooking, teas, and traditional remedies."
-    },
-    {
-      "id": "cinnamon",
-      "image": "images/cinnamon.png",
-      "defaultTitle": "Cinnamon",
-      "defaultDesc": "Cinnamon is a sweet, warming spice derived from tree bark, used in baking, desserts, and beverages worldwide."
-    },
-    {
-      "id": "jeera",
-      "image": "images/jeera.png",
-      "defaultTitle": "Jeera",
-      "defaultDesc": "Jeera (cumin) is an essential spice with a warm, earthy taste, widely used in Indian and global cuisines."
-    },
-    {
-      "id": "ajowan",
-      "image": "images/ajowan.png",
-      "defaultTitle": "Ajowan",
-      "defaultDesc": "Ajowan seeds, also called carom seeds, are known for their intense thyme-like flavor and digestive properties."
-    },
-    {
-      "id": "fenugreek",
-      "image": "images/fenugreek.png",
-      "defaultTitle": "Fenugreek",
-      "defaultDesc": "Fenugreek seeds have a bitter-sweet flavor and are valued in cooking, pickling, and traditional remedies."
-    },
-    {
-      "id": "black_pepper",
-      "image": "images/black_pepper.png",
-      "defaultTitle": "Black Pepper",
-      "defaultDesc": "Black pepper is a universally popular spice, prized for its sharp, pungent flavor and wide culinary uses."
-    },
-    {
-      "id": "chilli",
-      "image": "images/chilli.png",
-      "defaultTitle": "Chilli",
-      "defaultDesc": "Chilli, derived from Capsicum species, is valued for its fiery heat, vibrant color, and essential role in global culinary traditions."
-    }
+    { "id": "turmeric", "image": "images/turmeric.png", "title": "Turmeric", "description": "Turmeric (Curcuma longa) rhizome is prized for its earthy flavor, golden color, and traditional culinary and wellness uses." },
+    { "id": "black_turmeric", "image": "images/black_turmeric.png", "title": "Black Turmeric", "description": "Black Turmeric (Curcuma caesia) rhizome is a rare, critically endangered herb valued in traditional practices." },
+    { "id": "ginger", "image": "images/ginger.png", "title": "Ginger", "description": "Ginger (Zingiber officinale) rhizome is a zesty, aromatic spice widely used in global cuisines and traditional remedies." },
+    { "id": "black_ginger", "image": "images/black_ginger.png", "title": "Black Ginger", "description": "Black Ginger (Kaempferia parviflora) rhizome is native to Thailand and valued for vitality, stamina, and wellness." },
+    { "id": "long_pepper", "image": "images/long_pepper.png", "title": "Long Pepper", "description": "Long Pepper (Piper longum) fruit and root are used as pungent spices in traditional medicine and cuisine." },
+    { "id": "nutmeg", "image": "images/nutmeg.png", "title": "Nutmeg", "description": "Nutmeg (Myristica fragrans) seed adds a warm, nutty flavor and is valued in culinary and medicinal applications." },
+    { "id": "coriander", "image": "images/coriander.png", "title": "Coriander", "description": "Coriander (Coriandrum sativum) seeds add citrusy, nutty flavor and are used worldwide in spice blends and cooking." },
+    { "id": "cardamom", "image": "images/cardamom.png", "title": "Cardamom", "description": "Cardamom (Elettaria cardamomum) seeds are known as the 'queen of spices,' adding sweet, fragrant flavor to foods." },
+    { "id": "clove", "image": "images/clove.png", "title": "Clove", "description": "Clove (Syzygium aromaticum) flower buds have a strong, pungent aroma and are used in cooking and wellness." },
+    { "id": "cinnamon", "image": "images/cinnamon.png", "title": "Cinnamon", "description": "Cinnamon (Cinnamomum verum) bark is a sweet, woody spice used in baking, drinks, and traditional medicine." },
+    { "id": "jeera", "image": "images/jeera.png", "title": "Jeera (Cumin)", "description": "Cumin (Cuminum cyminum) seeds have an earthy, warm flavor, commonly used in curries and spice blends." },
+    { "id": "ajowan", "image": "images/ajowan.png", "title": "Ajowan (Carom Seeds)", "description": "Ajowan (Trachyspermum ammi) seeds have a thyme-like flavor and are used in breads, pickles, and digestion." },
+    { "id": "fenugreek", "image": "images/fenugreek.png", "title": "Fenugreek", "description": "Fenugreek (Trigonella foenum-graecum) seeds are nutty and bittersweet, used in spice blends and wellness." },
+    { "id": "black_pepper", "image": "images/black_pepper.png", "title": "Black Pepper", "description": "Black Pepper (Piper nigrum) dried fruits are the 'king of spices,' valued for pungent heat and flavor." },
+    { "id": "chilli", "image": "images/chilli.png", "title": "Chilli", "description": "Chilli (Capsicum spp.) fruits are prized for their fiery heat, vibrant color, and role in cuisines worldwide." }
   ],
   "oils": [
-    {
-      "id": "lavender_oil",
-      "image": "images/lavender.png",
-      "defaultTitle": "Lavender Oil",
-      "defaultDesc": "Lavender oil is known for its calming aroma and is commonly used in relaxation, skincare, and wellness applications."
-    },
-    {
-      "id": "peppermint_oil",
-      "image": "images/peppermint.png",
-      "defaultTitle": "Peppermint Oil",
-      "defaultDesc": "Peppermint oil provides a refreshing cooling effect and is valued in aromatherapy, oral care, and culinary use."
-    },
-    {
-      "id": "eucalyptus_oil",
-      "image": "images/eucalyptus.png",
-      "defaultTitle": "Eucalyptus Oil",
-      "defaultDesc": "Eucalyptus oil is valued for its invigorating scent and traditional use in respiratory wellness and cleansing."
-    }
+    { "id": "lavender_oil", "image": "images/lavender.png", "title": "Lavender Oil", "description": "Lavender oil is distilled from Lavandula flowers and known for its calming, soothing aroma." },
+    { "id": "peppermint_oil", "image": "images/peppermint.png", "title": "Peppermint Oil", "description": "Peppermint oil (Mentha × piperita) is extracted from leaves and valued for its cooling effect and fresh aroma." },
+    { "id": "turmeric_oil", "image": "images/turmeric_oil.png", "title": "Turmeric Oil", "description": "Turmeric oil (Curcuma longa) is derived from rhizomes and valued for its earthy aroma and wellness uses." },
+    { "id": "acorus_calamus_oil", "image": "images/acorus_calamus_oil.png", "title": "Acorus Calamus Oil", "description": "Acorus calamus oil is extracted from rhizomes and used in aromatherapy and traditional preparations." },
+    { "id": "citroneela_oil", "image": "images/citroneela_oil.png", "title": "Citronella Oil", "description": "Citronella oil (Cymbopogon nardus) is obtained from leaves and used as a natural insect repellent." },
+    { "id": "cardamom_oil", "image": "images/cardamom_oil.png", "title": "Cardamom Oil", "description": "Cardamom oil is distilled from seeds of Elettaria cardamomum and used in flavoring and wellness." },
+    { "id": "palmarosa_oil", "image": "images/palmarosa_oil.png", "title": "Palmarosa Oil", "description": "Palmarosa oil (Cymbopogon martinii) is extracted from grass and valued for its floral fragrance." },
+    { "id": "black_pepper_oil", "image": "images/black_pepper_oil.png", "title": "Black Pepper Oil", "description": "Black pepper oil is steam-distilled from Piper nigrum fruits and used in wellness and aromatherapy." },
+    { "id": "nutmeg_oil", "image": "images/nutmeg_oil.png", "title": "Nutmeg Oil", "description": "Nutmeg oil is obtained from Myristica fragrans seeds and valued in culinary, medicinal, and aromatic uses." },
+    { "id": "vetiver_oil", "image": "images/vetiver_oil.png", "title": "Vetiver Oil", "description": "Vetiver oil (Chrysopogon zizanioides) is derived from roots and prized for its deep, earthy scent." },
+    { "id": "lemongrass_oil", "image": "images/lemongrass_oil.png", "title": "Lemongrass Oil", "description": "Lemongrass oil (Cymbopogon citratus) is distilled from leaves and valued for its fresh, citrus aroma." },
+    { "id": "ginger_oil", "image": "images/ginger_oil.png", "title": "Ginger Oil", "description": "Ginger oil (Zingiber officinale) is extracted from rhizomes and used in massage, aromatherapy, and wellness." },
+    { "id": "eucalyptus_oil", "image": "images/eucalyptus.png", "title": "Eucalyptus Oil", "description": "Eucalyptus oil (Eucalyptus globulus) is distilled from leaves and known for its invigorating scent." },
+    { "id": "neem_oil", "image": "images/neem_oil.png", "title": "Neem Oil", "description": "Neem oil (Azadirachta indica) is obtained from seeds and used in wellness, skincare, and agriculture." }
   ],
   "herbs": [
-    {
-      "id": "basil",
-      "image": "images/basil.png",
-      "defaultTitle": "Basil",
-      "defaultDesc": "Dried basil adds sweet, aromatic notes to cooking and is widely used in sauces, soups, and herbal teas."
-    },
-    {
-      "id": "oregano",
-      "image": "images/oregano.png",
-      "defaultTitle": "Oregano",
-      "defaultDesc": "Oregano is a flavorful dried herb, often used in Mediterranean and global cuisines for its strong aroma and taste."
-    },
-    {
-      "id": "mint",
-      "image": "images/mint.png",
-      "defaultTitle": "Mint",
-      "defaultDesc": "Dried mint is refreshing, aromatic, and widely used in teas, beverages, and traditional herbal preparations."
-    }
+    { "id": "basil", "image": "images/basil.png", "title": "Basil", "description": "Basil (Ocimum basilicum) leaves are dried and add a sweet, aromatic flavor to sauces, soups, and teas." },
+    { "id": "oregano", "image": "images/oregano.png", "title": "Oregano", "description": "Oregano (Origanum vulgare) leaves are dried and widely used for their strong flavor in Mediterranean cuisines." },
+    { "id": "mint", "image": "images/mint.png", "title": "Mint", "description": "Mint (Mentha spp.) leaves are dried and used for teas, beverages, and traditional remedies." },
+    { "id": "vasambu", "image": "images/vasambu.png", "title": "Vasambu", "description": "Vasambu (Acorus calamus) rhizome is used in traditional wellness and herbal formulations." },
+    { "id": "myro_balan", "image": "images/myro_balan.png", "title": "Myro Balan", "description": "Myro Balan (Terminalia chebula) fruit is valued in Ayurveda for its digestive and cleansing properties." },
+    { "id": "ashwagandha", "image": "images/ashwagandha.png", "title": "Ashwagandha", "description": "Ashwagandha (Withania somnifera) root is a renowned adaptogen used in traditional wellness practices." },
+    { "id": "avaranboo", "image": "images/avaranboo.png", "title": "Avaranboo", "description": "Avaranboo (Senna auriculata) dried leaves and flowers are used in traditional health applications." },
+    { "id": "kuppaimeenai", "image": "images/kuppaimeenai.png", "title": "Kuppaimeenai", "description": "Kuppaimeenai (Acalypha indica) leaves and roots are used in traditional remedies." },
+    { "id": "keelaneli", "image": "images/keelaneli.png", "title": "Keelaneli", "description": "Keelaneli (Phyllanthus amarus) leaves and roots are used in traditional herbal medicine." },
+    { "id": "neerunchi", "image": "images/neerunchi.png", "title": "Neerunchi", "description": "Neerunchi (Tribulus terrestris) fruits are traditionally used for vitality and wellness." },
+    { "id": "nithiyakalayani", "image": "images/nithiyakalayani.png", "title": "Nithiyakalayani", "description": "Nithiyakalayani (Catharanthus roseus) dried leaves and flowers are used in traditional medicine." },
+    { "id": "adadhoda", "image": "images/adadhoda.png", "title": "Adadhoda", "description": "Adadhoda (Justicia adhatoda) leaves are valued in traditional wellness for respiratory support." },
+    { "id": "kumudikai", "image": "images/kumudikai.png", "title": "Kumudikai", "description": "Kumudikai (Citrullus colocynthis) fruit is used in traditional herbal remedies." },
+    { "id": "nanari", "image": "images/nanari.png", "title": "Nanari", "description": "Nanari (Hemidesmus indicus) root is aromatic and used in traditional beverages and wellness." },
+    { "id": "sundaikai", "image": "images/sundaikai.png", "title": "Sundaikai", "description": "Sundaikai (Solanum torvum) dried fruits are used in curries and traditional remedies." },
+    { "id": "kandankathitri", "image": "images/kandankathitri.png", "title": "Kandankathitri", "description": "Kandankathitri (Solanum virginianum) roots and seeds are used in traditional medicine." },
+    { "id": "oomathai", "image": "images/oomathai.png", "title": "Oomathai", "description": "Oomathai (Datura stramonium) seeds are traditionally used with caution in herbal remedies." },
+    { "id": "soapnut", "image": "images/soapnut.png", "title": "Soapnut", "description": "Soapnut (Sapindus spp.) fruits are used as natural cleansers and in traditional practices." },
+    { "id": "avuri", "image": "images/avuri.png", "title": "Avuri", "description": "Avuri (Indigofera tinctoria) leaves are traditionally used for natural dyes and herbal applications." },
+    { "id": "naiyuruvi", "image": "images/naiyuruvi.png", "title": "Naiyuruvi", "description": "Naiyuruvi (Achyranthes aspera) leaves and roots are used in traditional remedies." },
+    { "id": "nochi", "image": "images/nochi.png", "title": "Nochi", "description": "Nochi (Vitex negundo) leaves are used for their traditional wellness benefits." },
+    { "id": "thuthi", "image": "images/thuthi.png", "title": "Thuthi", "description": "Thuthi (Abutilon indicum) leaves are used in traditional medicine for wellness support." },
+    { "id": "thulasi", "image": "images/thulasi.png", "title": "Thulasi (Holy Basil)", "description": "Thulasi (Ocimum sanctum) leaves are highly regarded in Ayurveda for their wellness benefits." },
+    { "id": "alari", "image": "images/alari.png", "title": "Alari", "description": "Alari (Nerium indicum) leaves and seeds are traditionally used with caution in herbal remedies." },
+    { "id": "alari_yellow", "image": "images/alari_yellow.png", "title": "Alari Yellow", "description": "Alari Yellow (Nerium indicum) leaves and seeds are used in traditional applications." },
+    { "id": "eruku", "image": "images/eruku.png", "title": "Eruku", "description": "Eruku (Calotropis gigantea) dried leaves and flowers are used in traditional herbal practices." },
+    { "id": "castor", "image": "images/castor.png", "title": "Castor", "description": "Castor (Ricinus communis) roots and seeds are valued for castor oil and traditional uses." },
+    { "id": "banyan_tree", "image": "images/banyan_tree.png", "title": "Banyan Tree", "description": "Banyan Tree (Ficus benghalensis) dried leaves and fruits are used in traditional remedies." },
+    { "id": "sacred_fig", "image": "images/sacred_fig.png", "title": "Sacred Fig", "description": "Sacred Fig (Ficus religiosa) dried leaves and fruits are traditionally revered and used in herbal practices." }
   ]
 }
