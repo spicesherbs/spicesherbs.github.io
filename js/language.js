@@ -54,7 +54,7 @@
     document.querySelectorAll("[data-i18n]").forEach(applyTo);
   }
 
-  // ✅ Hide broken images (works for testimonials + products)
+  // ✅ Universal broken image handler
   function attachImageErrorHandler(img) {
     if (!img) return;
     img.onerror = () => {
