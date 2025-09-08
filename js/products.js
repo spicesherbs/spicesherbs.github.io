@@ -4,50 +4,56 @@ async function renderProducts(category, containerId) {
     const data = await response.json();
 
     const container = document.getElementById(containerId);
-    if (!container) return; // Exit if the container is not found on this page
+    if (!container) return;
 
     container.innerHTML = "";
 
     data[category].forEach(product => {
       const card = document.createElement("div");
       card.className = "col-md-6 mb-4";
-      card.innerHTML = `
-        <div class="card h-100 border text-center p-3">
-          <img src="${product.image}" alt="${product.title}" class="mx-auto d-block product-img" style="width:100px;" />
-          <div class="card-body">
-            <h3 class="card-title mt-3" data-i18n="${product.id}_title">${product.title}</h3>
-            <p class="card-text mt-3 mb-4" data-i18n="${product.id}_desc">${product.description}</p>
-            <a href="mailto:order@uyufoods.com?subject=Enquiry about ${product.title}" 
-               class="custom_orange-btn" data-i18n="buy_now">Order Now</a>
-          </div>
-        </div>
-      `;
-      container.appendChild(card);
 
-      // ✅ Hide broken product images
-      const img = card.querySelector(".product-img");
-      if (img) {
-        img.onerror = () => {
-          img.style.display = "none";
-        };
-        if (img.complete && img.naturalWidth === 0) {
-          img.style.display = "none";
-        }
-      }
+      // Create card wrapper
+      const cardInner = document.createElement("div");
+      cardInner.className = "card h-100 border text-center p-3";
+
+      // ✅ Create image with error handler BEFORE setting src
+      const img = document.createElement("img");
+      img.className = "mx-auto d-block";
+      img.style.width = "100px";
+      img.alt = product.title;
+      img.onerror = () => {
+        img.style.display = "none"; // hide if broken
+      };
+      img.src = product.image; // set AFTER handler
+
+      // Card body
+      const body = document.createElement("div");
+      body.className = "card-body";
+      body.innerHTML = `
+        <h3 class="card-title mt-3" data-i18n="${product.id}_title">${product.title}</h3>
+        <p class="card-text mt-3 mb-4" data-i18n="${product.id}_desc">${product.description}</p>
+        <a href="mailto:order@uyufoods.com?subject=Enquiry about ${product.title}" 
+           class="custom_orange-btn" data-i18n="buy_now">Order Now</a>
+      `;
+
+      // Build card
+      cardInner.appendChild(img);
+      cardInner.appendChild(body);
+      card.appendChild(cardInner);
+      container.appendChild(card);
     });
 
     // Detect saved or browser language
     const savedLang = localStorage.getItem("lang");
 
-    let langToUse = "en"; // default fallback
+    let langToUse = "en";
     if (savedLang) {
       langToUse = savedLang;
     } else if (navigator.language) {
       const browserLang = navigator.language.slice(0, 2);
-      // Only switch if you actually have that language file
       const supportedLangs = ["en", "de", "es", "fr", "it", "ja", "nl", "pl", "zh"];
       langToUse = supportedLangs.includes(browserLang) ? browserLang : "en";
-      localStorage.setItem("lang", langToUse); // save for next time
+      localStorage.setItem("lang", langToUse);
     }
     
     if (typeof applyTranslations === "function") {
@@ -58,6 +64,7 @@ async function renderProducts(category, containerId) {
     console.error("Error loading products:", err);
   }
 }
+
 
 // Render based on the page
 document.addEventListener("DOMContentLoaded", () => {
