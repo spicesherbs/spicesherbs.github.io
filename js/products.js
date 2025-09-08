@@ -13,11 +13,11 @@ async function renderProducts(category, containerId) {
       card.className = "col-md-6 mb-4";
       card.innerHTML = `
         <div class="card h-100 border text-center p-3">
-          <img src="${product.image}" alt="${product.id}" class="mx-auto d-block" style="width:100px;" />
+          <img src="${product.image}" alt="${product.defaultTitle}" class="mx-auto d-block" style="width:100px;" />
           <div class="card-body">
-            <h3 class="card-title mt-3" data-i18n="${product.id}_title">${product.id}</h3>
-            <p class="card-text mt-3 mb-4" data-i18n="${product.id}_desc"></p>
-            <a href="mailto:order@uyufoods.com?subject=Enquiry about ${product.id}" 
+            <h3 class="card-title mt-3" data-i18n="${product.id}_title">${product.defaultTitle}</h3>
+            <p class="card-text mt-3 mb-4" data-i18n="${product.id}_desc">${product.defaultDesc}</p>
+            <a href="mailto:order@uyufoods.com?subject=Enquiry about ${product.defaultTitle}" 
                class="custom_orange-btn" data-i18n="buy_now">Order Now</a>
           </div>
         </div>
@@ -42,8 +42,6 @@ async function renderProducts(category, containerId) {
     if (typeof applyTranslations === "function") {
       applyTranslations(langToUse);
     }
-
-
 
   } catch (err) {
     console.error("Error loading products:", err);
