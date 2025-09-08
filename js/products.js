@@ -15,31 +15,31 @@ async function renderProducts(category, containerId) {
           <div class="card-body">
             <h3 class="card-title mt-3" data-i18n="${product.id}_title">${product.id}</h3>
             <p class="card-text mt-3 mb-4" data-i18n="${product.id}_desc"></p>
-            <a href="mailto:order@uyufoods.com?subject=Enquiry about ${product.id}" class="custom_orange-btn" data-i18n="buy_now">Order Now</a>
+            <a href="mailto:order@uyufoods.com?subject=Enquiry about ${product.id}" 
+               class="custom_orange-btn" data-i18n="buy_now">Order Now</a>
           </div>
         </div>
       `;
       container.appendChild(card);
     });
 
-    // Ensure translations are applied AFTER rendering
-    requestAnimationFrame(() => {
-      const savedLang =
-        localStorage.getItem("lang") ||
-        navigator.language.slice(0, 2) ||
-        "en";
+    // Get current language (saved or browser default)
+    const savedLang =
+      localStorage.getItem("lang") ||
+      (navigator.language ? navigator.language.slice(0, 2) : "en") ||
+      "en";
 
-      if (typeof applyTranslations === "function") {
-        applyTranslations(savedLang);
-      }
-    });
+    // Ensure translations are applied AFTER rendering
+    if (typeof applyTranslations === "function") {
+      applyTranslations(savedLang);
+    }
 
   } catch (err) {
     console.error("Error loading products:", err);
   }
 }
 
-// Example usage per page:
+// Render only when DOM is ready
 document.addEventListener("DOMContentLoaded", () => {
   renderProducts("spices", "spices-container");
   renderProducts("oils", "oils-container");
