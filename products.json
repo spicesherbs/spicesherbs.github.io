@@ -1,38 +1,128 @@
 {
   "spices": [
-    { "id": "turmeric", "image": "images/turmeric.png" },
-    { "id": "black_turmeric", "image": "images/black_turmeric.png" },
-    { "id": "ginger", "image": "images/ginger.png" },
-    { "id": "black_ginger", "image": "images/black_ginger.png" },
-    { "id": "nutmeg", "image": "images/nutmeg.png" },
-    { "id": "coriander", "image": "images/coriander.png" },
-    { "id": "cardamom", "image": "images/cardamom.png" },
-    { "id": "clove", "image": "images/clove.png" },
-    { "id": "cinnamon", "image": "images/cinnamon.png" },
-    { "id": "jeera", "image": "images/jeera.png" },
-    { "id": "ajowan", "image": "images/ajowan.png" },
-    { "id": "fenugreek", "image": "images/fenugreek.png" },
-    { "id": "black_pepper", "image": "images/black_pepper.png" },
-    { "id": "chilli", "image": "images/chilli.png" }
+    {
+      "id": "turmeric",
+      "image": "images/turmeric.png",
+      "defaultTitle": "Turmeric",
+      "defaultDesc": "Turmeric, a golden-yellow spice from Curcuma longa, is prized for its earthy flavor, natural coloring, and traditional culinary use."
+    },
+    {
+      "id": "black_turmeric",
+      "image": "images/black_turmeric.png",
+      "defaultTitle": "Black Turmeric",
+      "defaultDesc": "Black turmeric (Curcuma caesia Roxb., or Black zedoary) is an industrially important critically endangered herb."
+    },
+    {
+      "id": "ginger",
+      "image": "images/ginger.png",
+      "defaultTitle": "Ginger",
+      "defaultDesc": "Ginger is a versatile spice and herb known for its pungent flavor and use in both culinary and wellness traditions."
+    },
+    {
+      "id": "black_ginger",
+      "image": "images/black_ginger.png",
+      "defaultTitle": "Black Ginger",
+      "defaultDesc": "Black ginger (Kaempferia parviflora) is a rare root native to Thailand, used for vitality, stamina, and overall wellness."
+    },
+    {
+      "id": "nutmeg",
+      "image": "images/nutmeg.png",
+      "defaultTitle": "Nutmeg",
+      "defaultDesc": "Nutmeg is a warm, aromatic spice used in sweet and savory dishes, prized for its distinctive flavor and fragrance."
+    },
+    {
+      "id": "coriander",
+      "image": "images/coriander.png",
+      "defaultTitle": "Coriander",
+      "defaultDesc": "Coriander seeds have a citrusy, nutty flavor and are widely used in global cuisines and spice blends."
+    },
+    {
+      "id": "cardamom",
+      "image": "images/cardamom.png",
+      "defaultTitle": "Cardamom",
+      "defaultDesc": "Cardamom is an aromatic spice known for its sweet, spicy flavor, often used in desserts, teas, and savory dishes."
+    },
+    {
+      "id": "clove",
+      "image": "images/clove.png",
+      "defaultTitle": "Clove",
+      "defaultDesc": "Cloves are aromatic flower buds valued for their strong, pungent flavor and use in cooking, teas, and traditional remedies."
+    },
+    {
+      "id": "cinnamon",
+      "image": "images/cinnamon.png",
+      "defaultTitle": "Cinnamon",
+      "defaultDesc": "Cinnamon is a sweet, warming spice derived from tree bark, used in baking, desserts, and beverages worldwide."
+    },
+    {
+      "id": "jeera",
+      "image": "images/jeera.png",
+      "defaultTitle": "Jeera",
+      "defaultDesc": "Jeera (cumin) is an essential spice with a warm, earthy taste, widely used in Indian and global cuisines."
+    },
+    {
+      "id": "ajowan",
+      "image": "images/ajowan.png",
+      "defaultTitle": "Ajowan",
+      "defaultDesc": "Ajowan seeds, also called carom seeds, are known for their intense thyme-like flavor and digestive properties."
+    },
+    {
+      "id": "fenugreek",
+      "image": "images/fenugreek.png",
+      "defaultTitle": "Fenugreek",
+      "defaultDesc": "Fenugreek seeds have a bitter-sweet flavor and are valued in cooking, pickling, and traditional remedies."
+    },
+    {
+      "id": "black_pepper",
+      "image": "images/black_pepper.png",
+      "defaultTitle": "Black Pepper",
+      "defaultDesc": "Black pepper is a universally popular spice, prized for its sharp, pungent flavor and wide culinary uses."
+    },
+    {
+      "id": "chilli",
+      "image": "images/chilli.png",
+      "defaultTitle": "Chilli",
+      "defaultDesc": "Chilli, derived from Capsicum species, is valued for its fiery heat, vibrant color, and essential role in global culinary traditions."
+    }
   ],
   "oils": [
-    { "id": "lavender_oil", "image": "images/lavender.png" },
-    { "id": "peppermint_oil", "image": "images/peppermint.png" },
-    { "id": "turmeric_oil", "image": "images/turmeric_oil.png" },
-    { "id": "acorus_calamus_oil", "image": "images/acorus_calamus_oil.png" },
-    { "id": "citroneela_oil", "image": "images/citroneela_oil.png" },
-    { "id": "cardamom_oil", "image": "images/cardamom_oil.png" },
-    { "id": "palmarosa_oil", "image": "images/palmarosa_oil.png" },
-    { "id": "black_pepper_oil", "image": "images/black_pepper_oil.png" },
-    { "id": "nutmeg_oil", "image": "images/nutmeg_oil.png" },
-    { "id": "vetiver_oil", "image": "images/vetiver_oil.png" },  
-    { "id": "lemongrass_oil", "image": "images/lemongrass_oil.png" },  
-    { "id": "ginger_oil", "image": "images/ginger_oil.png" },
-    { "id": "eucalyptus_oil", "image": "images/eucalyptus.png" }
+    {
+      "id": "lavender_oil",
+      "image": "images/lavender.png",
+      "defaultTitle": "Lavender Oil",
+      "defaultDesc": "Lavender oil is known for its calming aroma and is commonly used in relaxation, skincare, and wellness applications."
+    },
+    {
+      "id": "peppermint_oil",
+      "image": "images/peppermint.png",
+      "defaultTitle": "Peppermint Oil",
+      "defaultDesc": "Peppermint oil provides a refreshing cooling effect and is valued in aromatherapy, oral care, and culinary use."
+    },
+    {
+      "id": "eucalyptus_oil",
+      "image": "images/eucalyptus.png",
+      "defaultTitle": "Eucalyptus Oil",
+      "defaultDesc": "Eucalyptus oil is valued for its invigorating scent and traditional use in respiratory wellness and cleansing."
+    }
   ],
   "herbs": [
-    { "id": "basil", "image": "images/basil.png" },
-    { "id": "oregano", "image": "images/oregano.png" },
-    { "id": "mint", "image": "images/mint.png" }
+    {
+      "id": "basil",
+      "image": "images/basil.png",
+      "defaultTitle": "Basil",
+      "defaultDesc": "Dried basil adds sweet, aromatic notes to cooking and is widely used in sauces, soups, and herbal teas."
+    },
+    {
+      "id": "oregano",
+      "image": "images/oregano.png",
+      "defaultTitle": "Oregano",
+      "defaultDesc": "Oregano is a flavorful dried herb, often used in Mediterranean and global cuisines for its strong aroma and taste."
+    },
+    {
+      "id": "mint",
+      "image": "images/mint.png",
+      "defaultTitle": "Mint",
+      "defaultDesc": "Dried mint is refreshing, aromatic, and widely used in teas, beverages, and traditional herbal preparations."
+    }
   ]
 }
