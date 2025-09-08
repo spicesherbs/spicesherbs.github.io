@@ -17,17 +17,24 @@
     } catch (_) {}
   }
 
-  function fetchDict(lang) {
-    if (cache[lang]) return Promise.resolve(cache[lang]);
-    return fetch(`lang/${lang}.json`)
-      .then((res) => {
-        if (!res.ok) throw new Error(`Missing lang file: ${lang}`);
-        return res.json();
-      })
-      .then((json) => {
-        cache[lang] = json;
-        return json;
-      });
+  async function fetchDict(lang) {
+    // Return from cache if available
+    if (cache[lang]) return cache[lang];
+
+    // Always load static.json (non-translatable)
+    const staticRes = await fetch("lang/static.json");
+    const staticData = staticRes.ok ? await staticRes.json() : {};
+
+    // Load language file
+    const langRes = await fetch(`lang/${lang}.json`);
+    if (!langRes.ok) throw new Error(`Missing lang file: ${lang}`);
+    const langData = await langRes.json();
+
+    // Merge: staticData takes priority (cannot be overridden)
+    const merged = { ...langData, ...staticData };
+
+    cache[lang] = merged;
+    return merged;
   }
 
   function applyTo(el) {
@@ -36,7 +43,10 @@
 
     // Support textContent by default.
     // If you need attribute translations, add data-i18n-attr="placeholder|title" etc.
-    const attrList = (el.getAttribute("data-i18n-attr") || "").split("|").map(s => s.trim()).filter(Boolean);
+    const attrList = (el.getAttribute("data-i18n-attr") || "")
+      .split("|")
+      .map(s => s.trim())
+      .filter(Boolean);
 
     if (attrList.length > 0) {
       attrList.forEach((attr) => {
@@ -79,6 +89,7 @@
     currentLang = lang || DEFAULT_LANG;
     localStorage.setItem(STORAGE_KEY, currentLang);
     setHtmlLangAttr(currentLang);
+
     dict = await fetchDict(currentLang);
     applyToDocument();
   }
