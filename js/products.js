@@ -5,7 +5,7 @@ async function renderProducts(category, containerId) {
     const data = await response.json();
 
     const container = document.getElementById(containerId);
-    if (!container) return; // Exit if the container is not found on this page
+    if (!container) return;
 
     container.innerHTML = "";
 
@@ -13,9 +13,10 @@ async function renderProducts(category, containerId) {
       const card = document.createElement("div");
       card.className = "col-md-6 mb-4";
 
+      // Build card skeleton WITHOUT <img>
       card.innerHTML = `
         <div class="card h-100 border text-center p-3">
-          <img src="${product.image}" alt="${product.title}" class="mx-auto d-block" style="width:100px;" />
+          <div class="img-holder"></div>
           <div class="card-body">
             <h3 class="card-title mt-3" data-i18n="${product.id}_title">${product.title}</h3>
             <p class="card-text mt-3 mb-4" data-i18n="${product.id}_desc">${product.description}</p>
@@ -25,13 +26,28 @@ async function renderProducts(category, containerId) {
         </div>
       `;
 
+      // ✅ Create <img> in JS so we can attach onerror first
+      const img = document.createElement("img");
+      img.className = "mx-auto d-block";
+      img.style.width = "100px";
+      img.alt = product.title;
+
+      img.onerror = () => {
+        img.style.display = "none"; // hide if broken
+      };
+
+      // set src AFTER attaching onerror
+      img.src = product.image;
+
+      // Insert into placeholder
+      card.querySelector(".img-holder").appendChild(img);
+
       container.appendChild(card);
     });
 
     // Detect saved or browser language
     const savedLang = localStorage.getItem("lang");
-
-    let langToUse = "en"; // default fallback
+    let langToUse = "en";
     if (savedLang) {
       langToUse = savedLang;
     } else if (navigator.language) {
@@ -40,7 +56,7 @@ async function renderProducts(category, containerId) {
       langToUse = supportedLangs.includes(browserLang) ? browserLang : "en";
       localStorage.setItem("lang", langToUse);
     }
-    
+
     if (typeof applyTranslations === "function") {
       applyTranslations(langToUse);
     }
