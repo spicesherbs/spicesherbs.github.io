@@ -22,9 +22,12 @@ async function renderProducts(category, containerId) {
       container.appendChild(card);
     });
 
-    // Apply translations after rendering
+    // 🔑 Get the saved language or browser default
+    const savedLang = localStorage.getItem("lang") || navigator.language.slice(0, 2) || "en";
+
+    // Apply translations AFTER products are injected
     if (typeof applyTranslations === "function") {
-      applyTranslations(document.documentElement.lang || "en");
+      applyTranslations(savedLang);
     }
   } catch (err) {
     console.error("Error loading products:", err);
