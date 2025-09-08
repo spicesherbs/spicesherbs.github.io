@@ -13,7 +13,7 @@ async function renderProducts(category, containerId) {
       card.className = "col-md-6 mb-4";
       card.innerHTML = `
         <div class="card h-100 border text-center p-3">
-          <img src="${product.image}" alt="${product.title}" class="mx-auto d-block" style="width:100px;" />
+          <img src="${product.image}" alt="${product.title}" class="mx-auto d-block product-img" style="width:100px;" />
           <div class="card-body">
             <h3 class="card-title mt-3" data-i18n="${product.id}_title">${product.title}</h3>
             <p class="card-text mt-3 mb-4" data-i18n="${product.id}_desc">${product.description}</p>
@@ -25,6 +25,17 @@ async function renderProducts(category, containerId) {
       container.appendChild(card);
     });
 
+    // ✅ Hide broken product images
+    container.querySelectorAll(".product-img").forEach((img) => {
+      img.onerror = () => {
+        img.style.display = "none";
+      };
+      // If it already failed before onerror bound
+      if (img.complete && img.naturalWidth === 0) {
+        img.style.display = "none";
+      }
+    });
+
     // Detect saved or browser language
     const savedLang = localStorage.getItem("lang");
 
@@ -33,7 +44,6 @@ async function renderProducts(category, containerId) {
       langToUse = savedLang;
     } else if (navigator.language) {
       const browserLang = navigator.language.slice(0, 2);
-      // Only switch if you actually have that language file
       const supportedLangs = ["en", "de", "es", "fr", "it", "ja", "nl", "pl", "zh"];
       langToUse = supportedLangs.includes(browserLang) ? browserLang : "en";
       localStorage.setItem("lang", langToUse); // save for next time
