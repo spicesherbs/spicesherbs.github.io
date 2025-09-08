@@ -1,3 +1,4 @@
+// products.js
 async function renderProducts(category, containerId) {
   try {
     const response = await fetch("products.json");
@@ -12,20 +13,9 @@ async function renderProducts(category, containerId) {
       const card = document.createElement("div");
       card.className = "col-md-6 mb-4";
 
-      // Create img in JS so we can attach onerror before appending
-      const img = document.createElement("img");
-      img.src = product.image;
-      img.alt = product.title;
-      img.className = "mx-auto d-block";
-      img.style.width = "100px";
-
-      img.onerror = () => {
-        img.style.display = "none"; // ✅ hide broken images
-      };
-
       card.innerHTML = `
         <div class="card h-100 border text-center p-3">
-          <div class="img-holder"></div>
+          <img src="${product.image}" alt="${product.title}" class="mx-auto d-block" style="width:100px;" />
           <div class="card-body">
             <h3 class="card-title mt-3" data-i18n="${product.id}_title">${product.title}</h3>
             <p class="card-text mt-3 mb-4" data-i18n="${product.id}_desc">${product.description}</p>
@@ -34,9 +24,6 @@ async function renderProducts(category, containerId) {
           </div>
         </div>
       `;
-
-      // Insert image into the placeholder
-      card.querySelector(".img-holder").appendChild(img);
 
       container.appendChild(card);
     });
