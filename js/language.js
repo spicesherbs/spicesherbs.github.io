@@ -109,5 +109,13 @@
     }
     await applyTranslations(currentLang); // apply immediately on load
     observeNewNodes();                    // keep applying to newly added nodes
+        //  Hide broken testimonial images
+    document.querySelectorAll(".client_img-box img").forEach((img) => {
+      img.onerror = () => {
+        img.style.display = "none";
+        img.parentElement.style.display = "none";
+      };
+    });
   });
 })();
+
