@@ -28,7 +28,6 @@
     const langData = await langRes.json();
 
     const merged = { ...langData, ...staticData };
-
     cache[lang] = merged;
     return merged;
   }
@@ -39,7 +38,7 @@
 
     const attrList = (el.getAttribute("data-i18n-attr") || "")
       .split("|")
-      .map(s => s.trim())
+      .map((s) => s.trim())
       .filter(Boolean);
 
     if (attrList.length > 0) {
@@ -55,6 +54,21 @@
     document.querySelectorAll("[data-i18n]").forEach(applyTo);
   }
 
+  // ✅ Hide broken images (works for testimonials + products)
+  function attachImageErrorHandler(img) {
+    if (!img) return;
+    img.onerror = () => {
+      img.style.display = "none";
+    };
+    if (img.complete && img.naturalWidth === 0) {
+      img.style.display = "none";
+    }
+  }
+
+  function checkAllImages(root = document) {
+    root.querySelectorAll("img").forEach(attachImageErrorHandler);
+  }
+
   function observeNewNodes() {
     const obs = new MutationObserver((mutations) => {
       for (const m of mutations) {
@@ -62,8 +76,15 @@
           m.addedNodes.forEach((node) => {
             if (!(node instanceof Element)) return;
 
+            // Apply translations
             if (node.hasAttribute && node.hasAttribute("data-i18n")) applyTo(node);
             node.querySelectorAll?.("[data-i18n]").forEach(applyTo);
+
+            // ✅ Attach error handler to new <img>
+            if (node.tagName === "IMG") {
+              attachImageErrorHandler(node);
+            }
+            node.querySelectorAll?.("img").forEach(attachImageErrorHandler);
           });
         } else if (m.type === "attributes" && m.attributeName === "data-i18n") {
           applyTo(m.target);
@@ -100,14 +121,8 @@
     }
     await applyTranslations(currentLang);
     observeNewNodes();
-  });
 
-  // ✅ Global broken image handler (covers testimonials + products + any other <img>)
-  window.addEventListener("error", (e) => {
-    const target = e.target;
-    if (target && target.tagName === "IMG") {
-      target.style.display = "none"; // hide broken image
-      // OR fallback: target.src = "images/placeholder.png";
-    }
-  }, true); // useCapture=true so <img> errors are caught
+    // ✅ Check all existing images right away
+    checkAllImages();
+  });
 })();
