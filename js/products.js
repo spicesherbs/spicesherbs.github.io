@@ -22,19 +22,26 @@ async function renderProducts(category, containerId) {
       container.appendChild(card);
     });
 
-    // 🔑 Get the saved language or browser default
-    const savedLang = localStorage.getItem("lang") || navigator.language.slice(0, 2) || "en";
+    // Ensure translations are applied AFTER rendering
+    requestAnimationFrame(() => {
+      const savedLang =
+        localStorage.getItem("lang") ||
+        navigator.language.slice(0, 2) ||
+        "en";
 
-    // Apply translations AFTER products are injected
-    if (typeof applyTranslations === "function") {
-      applyTranslations(savedLang);
-    }
+      if (typeof applyTranslations === "function") {
+        applyTranslations(savedLang);
+      }
+    });
+
   } catch (err) {
     console.error("Error loading products:", err);
   }
 }
 
 // Example usage per page:
-// renderProducts("spices", "spices-container");
-// renderProducts("oils", "oils-container");
-// renderProducts("herbs", "herbs-container");
+document.addEventListener("DOMContentLoaded", () => {
+  renderProducts("spices", "spices-container");
+  renderProducts("oils", "oils-container");
+  renderProducts("herbs", "herbs-container");
+});
