@@ -26,15 +26,24 @@ async function renderProducts(category, containerId) {
     });
 
     // Detect saved or browser language
-    const savedLang =
-      localStorage.getItem("lang") ||
-      (navigator.language ? navigator.language.slice(0, 2) : "en") ||
-      "en";
+    const savedLang = localStorage.getItem("lang");
 
-    // Apply translations immediately
-    if (typeof applyTranslations === "function") {
-      applyTranslations(savedLang);
+    let langToUse = "en"; // default fallback
+    if (savedLang) {
+      langToUse = savedLang;
+    } else if (navigator.language) {
+      const browserLang = navigator.language.slice(0, 2);
+      // Only switch if you actually have that language file
+      const supportedLangs = ["en", "de", "es", "fr", "it", "ja", "nl", "pl", "zh"];
+      langToUse = supportedLangs.includes(browserLang) ? browserLang : "en";
+      localStorage.setItem("lang", langToUse); // save for next time
     }
+    
+    if (typeof applyTranslations === "function") {
+      applyTranslations(langToUse);
+    }
+
+
 
   } catch (err) {
     console.error("Error loading products:", err);
