@@ -352,9 +352,22 @@ a:focus {
   width: 350px;
 }
 
+/* Make sure images scale properly */
 .client_img-box img {
-  width: 100%
+  width: 100%;
+  display: block;
 }
+
+/* Hide the box if no image is set */
+.client_img-box img[src=""],
+.client_img-box img:not([src]) {
+  display: none;
+}
+
+.client_img-box:empty {
+  display: none;
+}
+
 
 .client_container h3 {
   text-align: center;
