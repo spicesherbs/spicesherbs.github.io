@@ -18,19 +18,15 @@
   }
 
   async function fetchDict(lang) {
-    // Return from cache if available
     if (cache[lang]) return cache[lang];
 
-    // Always load static.json (non-translatable)
     const staticRes = await fetch("lang/static.json");
     const staticData = staticRes.ok ? await staticRes.json() : {};
 
-    // Load language file
     const langRes = await fetch(`lang/${lang}.json`);
     if (!langRes.ok) throw new Error(`Missing lang file: ${lang}`);
     const langData = await langRes.json();
 
-    // Merge: staticData takes priority (cannot be overridden)
     const merged = { ...langData, ...staticData };
 
     cache[lang] = merged;
@@ -41,8 +37,6 @@
     const key = el.getAttribute("data-i18n");
     if (!key || !dict) return;
 
-    // Support textContent by default.
-    // If you need attribute translations, add data-i18n-attr="placeholder|title" etc.
     const attrList = (el.getAttribute("data-i18n-attr") || "")
       .split("|")
       .map(s => s.trim())
@@ -61,15 +55,36 @@
     document.querySelectorAll("[data-i18n]").forEach(applyTo);
   }
 
-  // Observe new nodes so translations also apply after products render
+  // ✅ Hide broken client images
+  function hideBrokenClientImages(root = document) {
+    root.querySelectorAll(".client_img-box img").forEach((img) => {
+      img.onerror = () => {
+        img.style.display = "none";
+      };
+      // If image already failed before handler attached
+      if (img.complete && img.naturalWidth === 0) {
+        img.style.display = "none";
+      }
+    });
+  }
+
   function observeNewNodes() {
     const obs = new MutationObserver((mutations) => {
       for (const m of mutations) {
         if (m.type === "childList") {
           m.addedNodes.forEach((node) => {
             if (!(node instanceof Element)) return;
+
             if (node.hasAttribute && node.hasAttribute("data-i18n")) applyTo(node);
             node.querySelectorAll?.("[data-i18n]").forEach(applyTo);
+
+            // ✅ Also check for new images
+            if (node.matches?.(".client_img-box img")) {
+              hideBrokenClientImages(node.parentElement || node);
+            }
+            node.querySelectorAll?.(".client_img-box img").forEach((img) => {
+              hideBrokenClientImages(img.parentElement || node);
+            });
           });
         } else if (m.type === "attributes" && m.attributeName === "data-i18n") {
           applyTo(m.target);
@@ -84,7 +99,6 @@
     });
   }
 
-  // Public: products.js can call this reliably
   async function applyTranslations(lang = currentLang) {
     currentLang = lang || DEFAULT_LANG;
     localStorage.setItem(STORAGE_KEY, currentLang);
@@ -94,11 +108,9 @@
     applyToDocument();
   }
 
-  // Expose globals BEFORE DOMContentLoaded so other scripts can call them
   window.applyTranslations = applyTranslations;
   window.getCurrentLang = () => currentLang;
 
-  // Initialize on DOM ready
   document.addEventListener("DOMContentLoaded", async () => {
     const selector = document.getElementById("languageSwitcher");
     if (selector) {
@@ -107,16 +119,8 @@
         applyTranslations(e.target.value);
       });
     }
-    await applyTranslations(currentLang); // apply immediately on load
-    observeNewNodes();                    // keep applying to newly added nodes
-        //  Hide broken testimonial images
-    document.querySelectorAll(".client_img-box img").forEach((img) => {
-      img.onerror = () => {
-        img.style.display = "none";
-      };
-    });
-    
+    await applyTranslations(currentLang);
+    observeNewNodes();
+    hideBrokenClientImages(); // ✅ check existing images immediately
   });
 })();
-
-
