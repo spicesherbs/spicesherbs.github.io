@@ -54,12 +54,13 @@
     document.querySelectorAll("[data-i18n]").forEach(applyTo);
   }
 
-  // ✅ Universal broken image handler
+  // ✅ Hide broken images
   function attachImageErrorHandler(img) {
     if (!img) return;
-    img.onerror = () => {
+    img.addEventListener("error", () => {
       img.style.display = "none";
-    };
+    });
+    // If already broken
     if (img.complete && img.naturalWidth === 0) {
       img.style.display = "none";
     }
@@ -80,7 +81,7 @@
             if (node.hasAttribute && node.hasAttribute("data-i18n")) applyTo(node);
             node.querySelectorAll?.("[data-i18n]").forEach(applyTo);
 
-            // ✅ Attach error handler to new <img>
+            // ✅ Handle new <img>
             if (node.tagName === "IMG") {
               attachImageErrorHandler(node);
             }
@@ -122,7 +123,7 @@
     await applyTranslations(currentLang);
     observeNewNodes();
 
-    // ✅ Check all existing images right away
+    // ✅ Run once on all existing images
     checkAllImages();
   });
 })();
