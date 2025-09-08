@@ -2,13 +2,13 @@ document.addEventListener("DOMContentLoaded", function () {
   const langSelector = document.getElementById("languageSwitcher");
   if (!langSelector) return;
 
-  const savedLang = localStorage.getItem("language") || "en";
+  const savedLang = localStorage.getItem("lang") || "en"; // unified key
   langSelector.value = savedLang;
   loadLanguage(savedLang);
 
   langSelector.addEventListener("change", function () {
     const lang = this.value;
-    localStorage.setItem("language", lang);
+    localStorage.setItem("lang", lang); // unified key
     loadLanguage(lang);
   });
 
