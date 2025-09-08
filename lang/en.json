@@ -7,6 +7,10 @@
   "get_quote": "Get A Quote",
   "buy_now": "Order Now",
   "enquire_now": "Enquire Now",
+   "testimonials_title": "Testimonials",
+  "testimonials_subtitle": "What our customers say about us",
+  "prev": "Previous",
+  "next": "Next",
 
   "home_title": "Welcome!",
   "home_intro": "We export premium spices, essential oils, and dried herbs with fast, reliable worldwide shipping. Contact us to learn more about our full product range.",
@@ -169,3 +173,4 @@
   "sacred_fig_title": "Sacred Fig",
   "sacred_fig_desc": "Sacred Fig (Ficus religiosa) dried leaves and fruits are traditionally revered and used in herbal practices."
 }
+
