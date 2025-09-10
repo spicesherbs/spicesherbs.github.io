@@ -7,7 +7,7 @@
   "get_quote": "Get A Quote",
   "buy_now": "Order Now",
   "enquire_now": "Enquire Now",
-   "testimonials_title": "Testimonials",
+  "testimonials_title": "Testimonials",
   "testimonials_subtitle": "What our customers say about us",
   "prev": "Previous",
   "next": "Next",
@@ -35,11 +35,41 @@
   "black_turmeric_title": "Black Turmeric",
   "black_turmeric_desc": "Black Turmeric (Curcuma caesia Roxb.) rhizome is a rare, critically endangered herb valued for medicinal and culinary applications.",
 
+  "ginger_title": "Ginger",
+  "ginger_desc": "Ginger (Zingiber officinale) rhizome is valued worldwide for its pungent flavor, aroma, and traditional health applications.",
+
+  "nutmeg_title": "Nutmeg",
+  "nutmeg_desc": "Nutmeg (Myristica fragrans) seed is prized as a warm, aromatic spice used in sweet and savory dishes, beverages, and traditional remedies.",
+
+  "coriander_title": "Coriander",
+  "coriander_desc": "Coriander (Coriandrum sativum) seeds are aromatic spices with citrus notes, widely used in global cuisines and traditional remedies.",
+
+  "cardamom_title": "Cardamom",
+  "cardamom_desc": "Cardamom (Elettaria cardamomum) pods are aromatic spices valued for flavoring foods, beverages, and herbal formulations.",
+
+  "clove_title": "Clove",
+  "clove_desc": "Clove (Syzygium aromaticum) dried flower buds are aromatic and used as spices in cooking, teas, and wellness traditions.",
+
+  "cinnamon_title": "Cinnamon",
+  "cinnamon_desc": "Cinnamon (Cinnamomum verum) bark is a sweet, aromatic spice used worldwide in culinary, beverages, and wellness practices.",
+
+  "jeera_title": "Jeera",
+  "jeera_desc": "Jeera (Cuminum cyminum) seeds are aromatic spices used for their warm, earthy flavor in global cuisines.",
+
+  "ajowan_title": "Ajowan",
+  "ajowan_desc": "Ajowan (Trachyspermum ammi) seeds are aromatic spices with strong flavor, used in traditional cooking and remedies.",
+
+  "fenugreek_title": "Fenugreek",
+  "fenugreek_desc": "Fenugreek (Trigonella foenum-graecum) seeds are valued for culinary uses and traditional health applications.",
+
   "black_ginger_title": "Black Ginger",
   "black_ginger_desc": "Black Ginger (Kaempferia parviflora) rhizome is native to Thailand, traditionally used for vitality, stamina, and wellness.",
 
   "chilli_title": "Chilli",
   "chilli_desc": "Chilli (Capsicum spp.) fruit is valued for its fiery heat, vibrant color, and essential role in global culinary traditions.",
+
+  "black_pepper_title": "Black Pepper",
+  "black_pepper_desc": "Black Pepper (Piper nigrum) fruit is known as the king of spices, widely used for flavoring, seasoning, and wellness.",
 
   "lavender_oil_title": "Lavender Oil",
   "lavender_oil_desc": "Lavender oil (Lavandula angustifolia) distilled from flowers is known for its calming aroma and widely used in relaxation, skincare, and wellness.",
@@ -79,6 +109,9 @@
 
   "ginger_oil_title": "Ginger Oil",
   "ginger_oil_desc": "Ginger oil (Zingiber officinale) extracted from rhizomes is widely used in aromatherapy, massage, and wellness.",
+
+  "neem_oil_title": "Neem Oil",
+  "neem_oil_desc": "Neem oil (Azadirachta indica) extracted from seeds is traditionally used in skincare, haircare, agriculture, and wellness applications.",
 
   "basil_title": "Basil",
   "basil_desc": "Basil (Ocimum basilicum) dried leaves add sweet, aromatic notes to sauces, soups, and herbal teas.",
@@ -173,4 +206,3 @@
   "sacred_fig_title": "Sacred Fig",
   "sacred_fig_desc": "Sacred Fig (Ficus religiosa) dried leaves and fruits are traditionally revered and used in herbal practices."
 }
-
