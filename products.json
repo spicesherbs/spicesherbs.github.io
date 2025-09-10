@@ -30,7 +30,7 @@
     { "id": "lemongrass_oil", "image": "images/lemongrass_oil.png", "title": "Lemongrass Oil", "description": "Lemongrass oil (Cymbopogon citratus) is distilled from leaves and valued for its fresh, citrus aroma." },
     { "id": "ginger_oil", "image": "images/ginger_oil.png", "title": "Ginger Oil", "description": "Ginger oil (Zingiber officinale) is extracted from rhizomes and used in massage, aromatherapy, and wellness." },
     { "id": "eucalyptus_oil", "image": "images/eucalyptus.png", "title": "Eucalyptus Oil", "description": "Eucalyptus oil (Eucalyptus globulus) is distilled from leaves and known for its invigorating scent." },
-    { "id": "neem_oil", "image": "images/neem_oil.png", "title": "Neem Oil", "description": "Neem oil (Azadirachta indica) is obtained from seeds and used in wellness, skincare, and agriculture." }
+    { "id": "neem", "image": "images/neem_oil.png", "title": "Neem Oil", "description": "Neem oil (Azadirachta indica) is obtained from seeds and used in wellness, skincare, and agriculture." }
   ],
   "herbs": [
     { "id": "basil", "image": "images/basil.png", "title": "Basil", "description": "Basil (Ocimum basilicum) leaves are dried and add a sweet, aromatic flavor to sauces, soups, and teas." },
