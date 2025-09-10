@@ -52,7 +52,21 @@
               <a href="mailto:order@uyufoods.com?subject=Enquiry about Spices, Oils, and Herbs" data-i18n="get_quote">Get A Quote</a>
             </div>
             <div class="ml-3">
-              <div id="lang-switcher"></div>
+              <select id="languageSwitcher" class="form-control form-control-sm">
+                <option value="en">English</option>
+                <option value="fr">🇫🇷 Français</option>
+                <option value="de">🇩🇪 Deutsch</option>
+                <option value="es">🇪🇸 Español</option>
+                <option value="it">🇮🇹 Italiano</option>
+                <option value="nl">🇳🇱 Nederlands</option>
+                <option value="pl">🇵🇱 Polski</option>
+                <option value="zh">🇨🇳 中文</option>
+                <option value="ja">🇯🇵 日本語</option>
+                <option value="sr-latin">🇷🇸 Srpski (latinica)</option>
+                <option value="sr">🇷🇸 Српски (ћирилица)</option>
+                <option value="ta">🇮🇳 தமிழ்</option>
+                <option value="te">🇮🇳 తెలుగు</option>
+              </select>
 
             </div>
           </div>
@@ -227,14 +241,7 @@
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/bootstrap.js"></script>
 <script src="js/language.js"></script>
-<script>
-fetch('lang-switcher.html')
-  .then(response => response.text())
-  .then(html => {
-    document.getElementById('lang-switcher').innerHTML = html;
-  })
-  .catch(err => console.error('Failed to load language switcher:', err));
-</script>
+
 
 
 </body>
